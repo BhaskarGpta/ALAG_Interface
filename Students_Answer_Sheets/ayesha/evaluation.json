@@ -1,0 +1,328 @@
+{
+    "1": {
+        "ideal_answer_explanations": {
+            "Does the answer define a Python virtual environment?": {
+                "relevant_portion_ideal": "A Python virtual environment is an isolated environment that allows you to manage and install Python packages specific to a particular project without affecting the global Python installation or other projects.",
+                "evaluation": true,
+                "explanation": "The ideal answer provides a clear and concise definition of a Python virtual environment, highlighting its key characteristic of isolation and its purpose in managing project-specific packages."
+            },
+            "Does the answer explain the purpose of dependency management in virtual environments?": {
+                "relevant_portion_ideal": "Dependency Management: It ensures that the packages and their versions used in a project do not conflict with those in another project or the system-wide environment.",
+                "evaluation": true,
+                "explanation": "The ideal answer explicitly explains that dependency management in virtual environments prevents conflicts between package versions across different projects and the global environment."
+            },
+            "Does the answer explain the role of virtual environments in version control?": {
+                "relevant_portion_ideal": "Version Control: You can use different versions of the same library for different projects, which is essential for compatibility and maintenance.",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly points out that virtual environments allow the use of different library versions for different projects, crucial for compatibility and maintenance."
+            },
+            "Does the answer mention the importance of virtual environments for system integrity?": {
+                "relevant_portion_ideal": "System Integrity: Modifications made in a virtual environment do not affect the global Python environment, avoiding accidental changes to system-level packages.",
+                "evaluation": true,
+                "explanation": "The ideal answer accurately describes how virtual environments protect the system's Python installation from accidental modifications."
+            },
+            "Does the answer discuss the contribution of virtual environments to project reproducibility?": {
+                "relevant_portion_ideal": "Reproducibility: Virtual environments make it easier to share projects with others, as the dependencies are isolated and can be replicated using tools like requirements.txt.",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly highlights the role of virtual environments in ensuring project reproducibility by isolating dependencies and facilitating their replication."
+            }
+        },
+        "student_answer_evaluations": {
+            "Does the answer define a Python virtual environment?": {
+                "relevant_portion_student": "Python Virtual Environment\\\\nIt is about enabling multiple environments on your computer, each with different versions of Python and its packages, without them interfering with each other.",
+                "explanation": "The student's answer gives a basic definition but lacks the precision and detail of the ideal answer.  It mentions multiple environments and non-interference but doesn't explicitly state the isolation aspect as clearly.",
+                "evaluation": false
+            },
+            "Does the answer explain the purpose of dependency management in virtual environments?": {
+                "relevant_portion_student": "\u2192 The virtual environment makes sure that the packages and libraries working on different systems.",
+                "explanation": "The student's answer vaguely mentions package compatibility across systems but doesn't explicitly address dependency management or version conflicts as the ideal answer does.",
+                "evaluation": false
+            },
+            "Does the answer explain the role of virtual environments in version control?": {
+                "relevant_portion_student": "It is as a sandbox, where you can play around with different packages and their versions without worrying about mixing up other sandboxes.",
+                "explanation": "The student's answer alludes to using different versions in separate environments, but it doesn't explicitly connect this to version control as a key benefit.",
+                "evaluation": false
+            },
+            "Does the answer mention the importance of virtual environments for system integrity?": {
+                "relevant_portion_student": "Installing packages may require admin but the virtual environment avoids the global installation issue.",
+                "explanation": "The student's answer touches upon avoiding global installation issues, which relates to system integrity, but it's not as comprehensive as the ideal answer's explanation.",
+                "evaluation": false
+            },
+            "Does the answer discuss the contribution of virtual environments to project reproducibility?": {
+                "relevant_portion_student": "It is useful and specialized to work for any computers.",
+                "explanation": "The student's answer doesn't address project reproducibility or the ability to easily share projects with others.",
+                "evaluation": false
+            }
+        }
+    },
+    "2": {
+        "ideal_answer_explanations": {
+            "Does the answer correctly identify lists as ordered and mutable?": {
+                "relevant_portion_ideal": "| List | An ordered, mutable collection that allows duplicates. | Mutable | Supported | Ordered (insertion) |",
+                "evaluation": true,
+                "explanation": "The table clearly shows lists as ordered and mutable."
+            },
+            "Does the answer correctly identify tuples as ordered and immutable?": {
+                "relevant_portion_ideal": "| Tuple | An ordered, immutable collection that allows duplicates. | Immutable | Supported | Ordered (insertion) |",
+                "evaluation": true,
+                "explanation": "The table correctly identifies tuples as ordered and immutable."
+            },
+            "Does the answer correctly identify sets as unordered and mutable collections of unique elements?": {
+                "relevant_portion_ideal": "| Set | An unordered collection of unique elements. | Mutable | Not Supported | Unordered |",
+                "evaluation": true,
+                "explanation": "The table accurately describes sets as unordered, mutable, and containing unique elements."
+            },
+            "Does the answer correctly describe dictionaries as collections of key-value pairs with unique keys?": {
+                "relevant_portion_ideal": "Dictionary\\nA collection of key-value pairs with unique keys and mutable values.",
+                "evaluation": true,
+                "explanation": "The description clearly states that dictionaries are key-value pairs with unique keys."
+            },
+            "Does the answer accurately compare the indexing capabilities of lists, tuples, sets, and dictionaries?": {
+                "relevant_portion_ideal": "The table shows indexing support for lists and tuples, but not for sets.",
+                "evaluation": true,
+                "explanation": "The table accurately reflects the indexing capabilities of each data structure."
+            }
+        },
+        "student_answer_evaluations": {
+            "Does the answer correctly identify lists as ordered and mutable?": {
+                "relevant_portion_student": "- List []\\n  - Mutable (can be modified) in nature\\n  - Supports indexing and slicing. Elements can be accessed and modified using indices.\\n  - Maintain the order.\\n  - Allow duplicate values.",
+                "explanation": "The student correctly identifies lists as ordered and mutable.",
+                "evaluation": true
+            },
+            "Does the answer correctly identify tuples as ordered and immutable?": {
+                "relevant_portion_student": "- Tuple ()\\n  - Immutable in nature.\\n  - Suitable for slicing and indexing.\\n  - Insertion order is maintained.\\n  - Allow duplicate elements.\\n  - Fixed data.",
+                "explanation": "The student correctly identifies tuples as ordered and immutable.",
+                "evaluation": true
+            },
+            "Does the answer correctly identify sets as unordered and mutable collections of unique elements?": {
+                "relevant_portion_student": "- Sets {}\\n  - Mutable in nature.\\n  - Indexing and slicing doesn't support.\\n  - It is unordered.\\n  - Do not allow duplicates.",
+                "explanation": "The student incorrectly states that sets do not allow duplicates; they do allow duplicates.  However, they are unordered and mutable.",
+                "evaluation": false
+            },
+            "Does the answer correctly describe dictionaries as collections of key-value pairs with unique keys?": {
+                "relevant_portion_student": "- Dictionaries {}\\n  - Mutable in nature.\\n  - Use keys for indexing instead of numeric indices.\\n  - Ordered.\\n  - Keys are unique, values can be duplicated.",
+                "explanation": "The student correctly describes dictionaries as having unique keys.",
+                "evaluation": true
+            },
+            "Does the answer accurately compare the indexing capabilities of lists, tuples, sets, and dictionaries?": {
+                "relevant_portion_student": "The student correctly identifies indexing capabilities for lists, tuples, and dictionaries, and the lack thereof for sets.",
+                "explanation": "The student accurately compares the indexing capabilities.",
+                "evaluation": true
+            }
+        }
+    },
+    "3": {
+        "ideal_answer_explanations": {
+            "Does the answer correctly explain string slicing and its syntax?": {
+                "relevant_portion_ideal": "String slicing allows you to extract specific portions of a string by specifying a range of indices. It uses the syntax:\\n\\nstring[start:end:step]",
+                "evaluation": true,
+                "explanation": "The ideal answer accurately explains string slicing and its syntax."
+            },
+            "Does the answer provide at least one example of string slicing?": {
+                "relevant_portion_ideal": "text = 'Hello, World!'\\n\\n# Slice from index 0 to 4 (end is exclusive)\\nprint(text[0:5])  # Output: Hello",
+                "evaluation": true,
+                "explanation": "The ideal answer provides multiple examples of string slicing."
+            },
+            "Does the answer correctly explain string formatting?": {
+                "relevant_portion_ideal": "String formatting is the process of dynamically inserting values into a string. Python provides several methods for formatting strings:\\n\\n1. % Operator (Old Style)\\n2. str.format() (New Style)\\n3. f-Strings (Introduced in Python 3.6)",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly explains string formatting and lists several methods."
+            },
+            "Does the answer provide examples of at least two different string formatting methods?": {
+                "relevant_portion_ideal": "print('Hello, %s! You are %d years old.' % (name, age))\\n\\nprint('Hello, {}! Your score is {:.1f}.' .format(name, score))",
+                "evaluation": true,
+                "explanation": "The ideal answer provides examples of % operator and str.format() methods."
+            },
+            "Are the examples of string slicing and formatting correct and functional?": {
+                "relevant_portion_ideal": "All examples provided are correct and would produce the stated output.",
+                "evaluation": true,
+                "explanation": "All examples are functional and produce the correct output."
+            }
+        },
+        "student_answer_evaluations": {
+            "Does the answer correctly explain string slicing and its syntax?": {
+                "relevant_portion_student": "Let a be our string:\\na = String[start:end:step]\\n- Start: The index where the slice begins\\n- End: The index where the slice ends\\n- Step: The interval between indices",
+                "explanation": "The student's explanation of string slicing and its syntax is correct.",
+                "evaluation": true
+            },
+            "Does the answer provide at least one example of string slicing?": {
+                "relevant_portion_student": "b = 'Python programming'\\nPrint(b[0:6])\\nOutput: 'Python'",
+                "explanation": "The student provides multiple examples of string slicing.",
+                "evaluation": true
+            },
+            "Does the answer correctly explain string formatting?": {
+                "relevant_portion_student": "String Formatting:\\nname = 'Shaik Ayesha Begum'\\nage = 17\\nPrint('My name is {} and I am {} years old.'.format(name, age))",
+                "explanation": "The student correctly explains string formatting.",
+                "evaluation": true
+            },
+            "Does the answer provide examples of at least two different string formatting methods?": {
+                "relevant_portion_student": "The student provides examples of both the .format() method and f-strings.",
+                "explanation": "The student provides examples of two different string formatting methods.",
+                "evaluation": true
+            },
+            "Are the examples of string slicing and formatting correct and functional?": {
+                "relevant_portion_student": "All examples provided are correct and functional.",
+                "explanation": "All examples are correct and would produce the stated output.",
+                "evaluation": true
+            }
+        }
+    },
+    "4": {
+        "ideal_answer_explanations": {
+            "Does the answer correctly state that SciPy extends NumPy?": {
+                "relevant_portion_ideal": "SciPy builds on the foundational capabilities of NumPy to provide additional functionality for scientific and technical computing.",
+                "evaluation": true,
+                "explanation": "The ideal answer clearly states that SciPy extends NumPy's capabilities."
+            },
+            "Does the answer mention at least two features provided by SciPy?": {
+                "relevant_portion_ideal": "1. Numerical Integration and Optimization\\n\\n2. ...",
+                "evaluation": true,
+                "explanation": "The ideal answer mentions numerical integration and optimization as two key features."
+            },
+            "Does the answer accurately describe the purpose of SciPy's numerical integration tools?": {
+                "relevant_portion_ideal": "- Integration: The scipy.integrate module provides functions like quad (for definite integrals) and ode (for solving ordinary differential equations).",
+                "evaluation": true,
+                "explanation": "The description of SciPy's integration tools is accurate."
+            },
+            "Does the answer accurately describe the purpose of SciPy's optimization tools?": {
+                "relevant_portion_ideal": "- Optimization: The scipy.optimize module includes algorithms for minimizing or maximizing functions, such as minimize, fsolve (for root finding), and curve_fit (for data fitting).",
+                "evaluation": true,
+                "explanation": "The description of SciPy's optimization tools is accurate."
+            }
+        },
+        "student_answer_evaluations": {
+            "Does the answer correctly state that SciPy extends NumPy?": {
+                "relevant_portion_student": "Scipy extends numpy for scientific computing.",
+                "explanation": "The student correctly states that SciPy extends NumPy.",
+                "evaluation": true
+            },
+            "Does the answer mention at least two features provided by SciPy?": {
+                "relevant_portion_student": "- Optimization: It helps for optimization problems.\\n- Integration and solving differential equations.",
+                "explanation": "The student mentions optimization and integration/differential equations, fulfilling the requirement.",
+                "evaluation": true
+            },
+            "Does the answer accurately describe the purpose of SciPy's numerical integration tools?": {
+                "relevant_portion_student": "- Integration and solving differential equations.",
+                "explanation": "The student's description is accurate, though brief.",
+                "evaluation": true
+            },
+            "Does the answer accurately describe the purpose of SciPy's optimization tools?": {
+                "relevant_portion_student": "- Optimization: It helps for optimization problems.",
+                "explanation": "The student's description is accurate, though brief.",
+                "evaluation": true
+            }
+        }
+    },
+    "5": {
+        "ideal_answer_explanations": {
+            "Does the answer correctly identify Seaborn as a data visualization library built on Matplotlib?": {
+                "relevant_portion_ideal": "Seaborn is a Python data visualization library built on top of Matplotlib.",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly identifies Seaborn's relationship to Matplotlib."
+            },
+            "Does the answer accurately compare the purpose of Seaborn and Matplotlib?": {
+                "relevant_portion_ideal": "| Purpose | Seaborn | Matplotlib |\\n| --- | --- | --- |\\n|  | High-level statistical visualizations. | Low-level, general-purpose plotting. |",
+                "evaluation": true,
+                "explanation": "The table accurately compares the purposes of Seaborn and Matplotlib."
+            },
+            "Does the answer compare the ease of use of Seaborn and Matplotlib?": {
+                "relevant_portion_ideal": "| Ease of Use | Simplifies complex visualizations with minimal code. | Requires more effort to customize and create complex plots. |",
+                "evaluation": true,
+                "explanation": "The table accurately compares the ease of use."
+            },
+            "Does the answer compare the default aesthetics of Seaborn and Matplotlib?": {
+                "relevant_portion_ideal": "| Default Aesthetics | Provides built-in themes and color palettes for better-looking plots. | Default plots are basic; customization is often needed. |",
+                "evaluation": true,
+                "explanation": "The table accurately compares the default aesthetics."
+            },
+            "Does the answer compare the statistical features of Seaborn and Matplotlib?": {
+                "relevant_portion_ideal": "| Statistical Features | Supports built-in aggregation and statistical transformations. | Lacks direct statistical support (requires manual computation). |",
+                "evaluation": true,
+                "explanation": "The table accurately compares the statistical features."
+            }
+        },
+        "student_answer_evaluations": {
+            "Does the answer correctly identify Seaborn as a data visualization library built on Matplotlib?": {
+                "relevant_portion_student": "- General purpose plotting library - Matplotlib\\n- Specialized for statistical plots - Seaborn",
+                "explanation": "The student correctly identifies Seaborn as a specialized library for statistical plots and Matplotlib as a general-purpose library, implying the relationship.",
+                "evaluation": true
+            },
+            "Does the answer accurately compare the purpose of Seaborn and Matplotlib?": {
+                "relevant_portion_student": "- General purpose plotting library - Matplotlib\\n- Specialized for statistical plots - Seaborn",
+                "explanation": "The student accurately compares the purposes, though less explicitly than the ideal answer.",
+                "evaluation": true
+            },
+            "Does the answer compare the ease of use of Seaborn and Matplotlib?": {
+                "relevant_portion_student": "- Matplotlib is basic and Seaborn is advanced",
+                "explanation": "The student's comparison is accurate, though less detailed.",
+                "evaluation": true
+            },
+            "Does the answer compare the default aesthetics of Seaborn and Matplotlib?": {
+                "relevant_portion_student": "- It has predefined themes and color palettes",
+                "explanation": "The student mentions Seaborn's predefined themes and color palettes, implicitly contrasting it with Matplotlib's lack thereof.",
+                "evaluation": true
+            },
+            "Does the answer compare the statistical features of Seaborn and Matplotlib?": {
+                "relevant_portion_student": "- It has built-in statistical features",
+                "explanation": "The student correctly points out Seaborn's built-in statistical features, implying a contrast with Matplotlib.",
+                "evaluation": true
+            }
+        }
+    },
+    "6": {
+        "ideal_answer_explanations": {
+            "Does the answer define inheritance in the context of object-oriented programming?": {
+                "relevant_portion_ideal": "Inheritance is a feature of object-oriented programming that allows a child class (derived class) to inherit properties (attributes) and methods from a parent class (base class).",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly defines inheritance within the OOP context."
+            },
+            "Does the answer correctly define base and derived classes?": {
+                "relevant_portion_ideal": "Base Class (Parent): The class from which attributes and methods are inherited.\\n\\nDerived Class (Child): The class that inherits from the parent class.",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly defines base and derived classes."
+            },
+            "Does the answer provide a complete and functional example of inheritance?": {
+                "relevant_portion_ideal": "The provided code example is complete, functional, and demonstrates inheritance.",
+                "evaluation": true,
+                "explanation": "The code example is executable and demonstrates inheritance correctly."
+            },
+            "Does the example correctly demonstrate the inheritance of properties and methods?": {
+                "relevant_portion_ideal": "The Car class inherits brand and model from Vehicle and adds doors.  It also overrides display_info.",
+                "evaluation": true,
+                "explanation": "The example correctly shows inheritance of properties and methods, and method overriding."
+            },
+            "Does the answer explain the use of `super()` in the example?": {
+                "relevant_portion_ideal": "The super().__init__(brand, model) call in the child class ensures the parent class's constructor is invoked, avoiding code duplication.",
+                "evaluation": true,
+                "explanation": "The ideal answer explains the use of `super()` to call the parent class constructor."
+            }
+        },
+        "student_answer_evaluations": {
+            "Does the answer define inheritance in the context of object-oriented programming?": {
+                "relevant_portion_student": "Inheritance is an object-oriented programming concept that allows a class (child class) to inherit attributes and methods from another class (called parent class).",
+                "explanation": "The student correctly defines inheritance in the context of OOP.",
+                "evaluation": true
+            },
+            "Does the answer correctly define base and derived classes?": {
+                "relevant_portion_student": "Base class (parent class):\\n\\nDerived class (child class):",
+                "explanation": "The student correctly defines base and derived classes.",
+                "evaluation": true
+            },
+            "Does the answer provide a complete and functional example of inheritance?": {
+                "relevant_portion_student": "The provided code example is complete and functional, demonstrating inheritance.",
+                "explanation": "The code example is complete and functional, demonstrating inheritance.",
+                "evaluation": true
+            },
+            "Does the example correctly demonstrate the inheritance of properties and methods?": {
+                "relevant_portion_student": "The Dog class inherits from the Animal class. This means the Dog class has access to the `__init__()` and `move()` methods from Animal.",
+                "explanation": "The example correctly demonstrates inheritance of properties and methods.",
+                "evaluation": true
+            },
+            "Does the answer explain the use of `super()` in the example?": {
+                "relevant_portion_student": "The answer does not use or explain the use of `super()`.",
+                "explanation": "The student's answer does not use or explain `super()`.",
+                "evaluation": false
+            }
+        }
+    }
+}

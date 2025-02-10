@@ -1,0 +1,34 @@
+{
+    "answers": [
+        {
+            "question_number": 1,
+            "question_text": "What is a Python virtual environment, and why is it important? [Marks 5]",
+            "student_answer": "Python Virtual Environment\\nIt is about enabling multiple environments on your computer, each with different versions of Python and its packages, without them interfering with each other.\\n\\nFor example:\\n\u2192 It is as a sandbox, where you can play around with different packages and their versions without worrying about mixing up other sandboxes.\\n\\nIts importance:\\n\u2192 Installing packages may require admin but the virtual environment avoids the global installation issue.\\n\u2192 The virtual environment makes sure that the packages and libraries working on different systems.\\n\u2192 It is useful and specialized to work for any computers."
+        },
+        {
+            "question_number": 2,
+            "question_text": "What are the key differences between lists, tuples, sets, and dictionaries in Python? [Marks 5]\\n\\no Discuss the characteristics (mutability, indexing, ordering, etc.) of each data structure",
+            "student_answer": "Lists, tuples, sets, and dictionaries are important data structures in Python.\\n\\nDifferences:\\n- List []\\n  - Mutable (can be modified) in nature\\n  - Supports indexing and slicing. Elements can be accessed and modified using indices.\\n  - Maintain the order.\\n  - Allow duplicate values.\\n  - Stored data can be modified.\\n\\n- Tuple ()\\n  - Immutable in nature.\\n  - Suitable for slicing and indexing.\\n  - Insertion order is maintained.\\n  - Allow duplicate elements.\\n  - Fixed data.\\n\\n- Sets {}\\n  - Mutable in nature.\\n  - Indexing and slicing doesn't support.\\n  - It is unordered.\\n  - Do not allow duplicates.\\n\\n- Dictionaries {}\\n  - Mutable in nature.\\n  - Use keys for indexing instead of numeric indices.\\n  - Ordered.\\n  - Keys are unique, values can be duplicated."
+        },
+        {
+            "question_number": 3,
+            "question_text": "What are string slicing and string formatting in Python? Provide examples. [Marks 5]",
+            "student_answer": "string\\n- It is a data structure of Python programming language.\\n\\nString Slicing in Python:\\nLet a be our string:\\na = String[start:end:step]\\n- Start: The index where the slice begins\\n- End: The index where the slice ends\\n- Step: The interval between indices\\n\\nExample:\\nb = 'Python programming'\\nPrint(b[0:6])\\nOutput: 'Python'\\n\\nb = 'Python programming'\\nPrint(b[6::-1])\\nOutput: 'nohtyp'\\n\\nString Formatting:\\nname = 'Shaik Ayesha Begum'\\nage = 17\\nPrint('My name is {} and I am {} years old.'.format(name, age))\\nOutput: 'My name is Shaik Ayesha Begum and I am 17 years old.'\\n\\n```python\\n# f-strings\\nname = 'Shaik Ayesha Begum'\\nage = 17\\nprint(f'My name is {name} and I am {age} years old')\\noutput: 'My name is Shaik Ayesha Begum and I am 17 years old'\\n```"
+        },
+        {
+            "question_number": 4,
+            "question_text": "How does SciPy extend NumPy for scientific computing? Mention at least two features provided by SciPy. [Marks 5]",
+            "student_answer": "Scipy extends numpy for scientific computing.\\n\\nNumpy is a powerful library for numerical computing in Python. It provides essential mathematical operations. Scipy comes into play an important role by extending Numpy by adding functions and algorithms for scientific computing.\\n\\nKey features of Scipy:\\n- Optimization: It helps for optimization problems.\\n- Integration and solving differential equations.\\n\\nRole of Scipy module:\\n- It offers a comprehensive suite of functions such as gamma function and error functions which are essential in the field of physics and engineering.\\n- Its module offers a wide range of statistical functions, distributions, and tests, making it useful for data analysis."
+        },
+        {
+            "question_number": 5,
+            "question_text": "What is the Seaborn library used for, and how does it differ from Matplotlib? [Marks 5]",
+            "student_answer": "```python\\n# Difference between Seaborn and Matplotlib\\n- General purpose plotting library - Matplotlib\\n- Specialized for statistical plots - Seaborn\\n- Matplotlib doesn't support pandas and dataframes directly, Seaborn integrates directly with pandas dataframes\\n- Matplotlib is basic and Seaborn is advanced\\n\\nAdvantages of Seaborn:\\n- It helps to simplify complex plots\\n- It has built-in statistical features\\n- It directly integrates with pandas\\n- It has predefined themes and color palettes\\n\\nHelp of Seaborn:\\n- Heatmaps: Easily visualize data correlation or matrix-like structures\\n- Pairplots: Automatically plot pairwise relationships in dataset\\n- Violin plots: Combine boxplot and KDE to visualize distribution\\n```"
+        },
+        {
+            "question_number": 6,
+            "question_text": "Explain inheritance in Python and provide an example of how a child class can inherit properties and methods from a parent class. [Marks 5]",
+            "student_answer": "Inheritance in Python:\\n\\nInheritance is an object-oriented programming concept that allows a class (child class) to inherit attributes and methods from another class (called parent class).\\n\\nBase class (parent class):\\n\\n```python\\nclass Animal:\\n    def __init__(self, name):\\n        self.name = name\\n\\n    def speak():\\n        return 'Some Animal Sound'\\n\\n    def move():\\n        print(f'{self.name} is moving')\\n```\\n\\nDerived class (child class):\\n\\n```python\\nclass Dog(Animal):\\n    def speak(self):\\n        return f'{self.name} says bow!'\\n\\n    def fetch(self):\\n        print(f'{self.name} is fetching ball')\\n```\\n\\nExplanation:\\n- The Dog class inherits from the Animal class. This means the Dog class has access to the `__init__()` and `move()` methods from Animal.\\n- The `speak` method in the Dog overrides the `speak` method in the Animal, providing specific behavior for dogs.\\n- The `fetch` method is unique to the Dog class and demonstrates extending the behavior of the class."
+        }
+    ]
+}

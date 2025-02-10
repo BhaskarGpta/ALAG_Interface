@@ -1,0 +1,149 @@
+{
+    "answers": [
+        {
+            "question_number": 1,
+            "question_text": "Sobel operators can only be used to identify vertical derivatives in an image.",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 2,
+            "question_text": "Roberts gradient operator performs derivative in a diagonal direction.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 3,
+            "question_text": "Detecting multiple lines using hough transform is computationally efficient.",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 4,
+            "question_text": "The diameter of the ideal pinhole is inversely proportional to wavelength.",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 5,
+            "question_text": "In Figure 1, we applied a Gaussian filter to the original image and computed the derivative in the x and y directions. True or False: Result 1 is the x-derivative of Gaussian, and result 2 is the y-derivative of Gaussian.",
+            "student_answer": ""
+        },
+        {
+            "question_number": 6,
+            "question_text": "The product and convolution of two Gaussian functions are also Gaussian functions.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 7,
+            "question_text": "In image classification, the size of the output feature map always increases as you move deeper into a Convolutional Neural Network (CNN).",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 8,
+            "question_text": "The ReLU (Rectified Linear Unit) activation function introduces non-linearity to a neural network by converting all negative input values to zero.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 9,
+            "question_text": "Local Binary Patterns (LBP) encode the relationship between a pixel and its neighbors by thresholding their values and considering the result as a binary number.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 10,
+            "question_text": "The SVM classifier can only be applied for binary classification.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 11,
+            "question_text": "In SVM, the classification of an unknown vector only depends on the dot product.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 12,
+            "question_text": "In the case of gradient edges are detected using maxima thresholding; whereas, in Laplacian they are detected using zero-crossing.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 13,
+            "question_text": "A line in an image space is a circle in the parameter (Hough) space.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 14,
+            "question_text": "In the case of text data, a bag of words vocabulary is basically each unique word in the training corpus.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 15,
+            "question_text": "What are the factors that can affect image formation? Discuss in brief along with equations the concept of perspective projection. Using the equations highlights how the perspective projection is different from orthographic projection. (1+3+1 marks)",
+            "student_answer": "The camera features intrinsic and extrinsic, illumination of the object, distance from the focal point.\\n\\nPerspective projection\\n\\ny = -fY / z\\nx = -fX / z\\n\\nz -> depth of the object\\n-f as the image is inverted.\\n\\n[Visual: - Location: Middle of the page\\n- Type: Diagram of a camera perspective projection\\n- Content:\\n  - Title: 'Perspective projection'\\n  - Diagram shows a camera with a focal point labeled 'f' and an object at coordinates (x, y, z).\\n  - The image plane is labeled '(x', y')'.\\n  - The depth of the object is labeled 'z'.\\n  - The diagram includes the equations:\\n    - \\( \\\\frac{y'}{y} = -\\\\frac{f}{z} \\)\\n    - \\( y' = -\\\\frac{f}{z} \\)\\n    - \\( x' = -\\\\frac{f}{z} \\)\\n  - Annotations: 'z -> depth of the object', '-f as the image is inverted'."
+        },
+        {
+            "question_number": 16,
+            "question_text": "Mention at least 3 methods that can be used to recover 3D shapes from 2D images. (2 marks)",
+            "student_answer": "Stereo, Motion, Contour, Texture"
+        },
+        {
+            "question_number": 17,
+            "question_text": "Discuss at least 3 unique applications of computer vision in brief. (3 marks)",
+            "student_answer": "Face recognition - we extensively use computer vision and its features in face recognition.\\n\\nSecurity cameras - we use the features of a face for the security purposes.\\n\\nNumber plate recognition - we use computer vision for recognising number plates on some anonymous vehicles."
+        },
+        {
+            "question_number": 18,
+            "question_text": "Compute the histogram plot of an image matrix in Table 1. (2 marks)",
+            "student_answer": "3 | 6 | 6 | 8\\n5 | 3 | 1 | 4\\n8 | 6 | 5 | 1\\n4 | 8 | 8 | 3\\n\\n[Histogram of frequency vs. numbers]\\n\\n[Visual: - Location: Top of the page\\n- Type: Equations and Diagram\\n- Content:\\n  - Equations:\\n    - Perspective projection: \\( u = \\\\frac{fX}{Z} \\) and \\( v = \\\\frac{fY}{Z} \\)\\n    - Orthographic projection: \\( u = X \\) and \\( v = Y \\)\\n  - Diagram:\\n    - Axes: x and y\\n    - Image plane: \\( u, v \\)\\n    - Object plane: \\( X, Y \\)\\n    - A rectangle representing the object is shown with the image plane and object plane labeled.]\\n\\n[Visual: - Location: Below Question 18\\n- Type: Stem-and-Leaf Plot\\n- Content:\\n  - Stem: 3, 5, 8, 4\\n  - Leaves: \\n    - For stem 3: 6, 6, 8\\n    - For stem 5: 3, 1, 4\\n    - For stem 8: 6, 5, 1\\n    - For stem 4: 8, 8, 3]\\n\\n[Visual: - Location: Below the table\\n- Type: Bar Chart\\n- Content:\\n  - Title: Frequency\\n  - X-axis: Numbers (1, 2, 3, 4, 5, 6, 7, 8)\\n  - Y-axis: Frequency (1, 2, 3, 4)\\n  - Bars:\\n    - For number 1: Frequency 1\\n    - For number 2: Frequency 2\\n    - For number 3: Frequency 3\\n    - For number 4: Frequency 2\\n    - For number 5: Frequency 1\\n    - For number 6: Frequency 3\\n    - For number 7: Frequency 1\\n    - For number 8: Frequency 3\\n  - Patterns: The bars are shaded with diagonal lines.]"
+        },
+        {
+            "question_number": 19,
+            "question_text": "What are the performance requirements of a good edge detector? Mention the names along with a 1-3 line description. (2 marks)",
+            "student_answer": "Illumination invariant - the illumination should not highly affect the edges.\\n\\nGood localisation - the localisation of the detectors should be precise and notice the edges nicely."
+        },
+        {
+            "question_number": 20,
+            "question_text": "Describe the total energy (force) needed in the active contour algorithm. Mention each energy clearly through mathematical notation. (2 marks)",
+            "student_answer": "E_contour = E_elastic + E_smooth\\n\\nE_elastic = || dv/ds ||^2\\n\\nE_smooth = || d^2v/ds^2 ||^2"
+        },
+        {
+            "question_number": 21,
+            "question_text": "(i) Given an Input volume of size 32x32x3, we have to apply 10 filters of dimension 5x5 with stride 1, pad 2. What will be the output volume size? (ii) Given an Input volume of size 32x32x3, we have to apply 10 filters of dimension 5x5 with stride 1, pad 2. What are the number of parameters which we have to learn? (iii) Given a 5x5 image matrix shown in Table 2, perform the convolution/filtering using the filter given in Table 3. (1+1+3 marks)",
+            "student_answer": "i) Input 32x32x3\\nfilter = 5x5\\nstride = 1, pad = 2\\noutput volume size = 32x32x10\\n\\nii) F^2CK\\n\\niii) Without padding convolution\\nstride = 1\\n\\n4 3 4\\n2 4 3\\n2 3 4"
+        },
+        {
+            "question_number": 22,
+            "question_text": "Compute an Integral image of a Figure 6. By using the integral image compute the value of a Haar filter demonstrated using a black and white region. (2+2 marks)",
+            "student_answer": "62 95 82 52 62\\n32 53 42 67 54\\n120 58 62 57 38\\n58 62 68 110 65\\n75 25 39 65 34\\n54 36 28 64 42\\n\\nIntegral image\\n\\n62 157 239 291 353\\n94 242 366 485 601\\n214 418 604 780 934\\n272 540 794 1080 1299\\n347 640 933 1348 1601\\n401 730 1051 1466 1761\\n\\nArea of white region\\n= D - C - B + A\\n= 933 - 640 - 366 + 242\\n= 169\\n\\nArea of black region\\n= H - G - F - E\\n= 1601 - 1348 - 601 + 485\\n= 137\\n\\nvalue of Haar filter = Area of white region - Area of black region\\n= 169 - 137\\n= 32\\n\\n[Visual: - Location: Top left corner\\n- Type: Mathematical Elements\\n- Content:\\n  - Title: Question-22\\n  - Matrix:\\n    - Row 1: 62, 95, 82, 52, 62\\n    - Row 2: 32, 53, 42, 67, 54\\n    - Row 3: 120, 58, 62, 57, 38\\n    - Row 4: 58, 62, 68, 110, 65\\n    - Row 5: 75, 25, 39, 65, 34\\n    - Row 6: 54, 36, 28, 64, 42\\n\\n  - Integral Image:\\n    - Row 1: 62, 157, 239, 291, 353\\n    - Row 2: 94, 242, 366, 485, 601\\n    - Row 3: 214, 418, 604, 780, 934\\n    - Row 4: 272, 540, 794, 1080, 1299\\n    - Row 5: 347, 640, 933, 1348, 1601\\n    - Row 6: 401, 730, 1051, 1466, 1761\\n\\n  - Area of white region:\\n    - Formula: D - C - B + A\\n    - Calculation: 933 - 640 - 366 + 242 = 169\\n\\n  - Area of black region:\\n    - Formula: H - G - F - E\\n    - Calculation: 1601 - 1348 - 601 + 485 = 137\\n\\n  - Value of Haar filter:\\n    - Formula: Area of white region - Area of black region\\n    - Calculation: 169 - 137 = 32]"
+        },
+        {
+            "question_number": 23,
+            "question_text": "Compute an LBP image of the following matrix. You can do this without padding. (2 marks)",
+            "student_answer": "1 2 3 8 10\\n4 5 9 10 3\\n6 7 12 3 4\\n12 13 0 2 9\\n0 1 5 2 21\\n\\nBBP without padding.\\n\\nCenter at 5 = 00011100\\n= 2^0 * 0 + 2^1 * 0 + 2^2 * 0 + 2^3 * 1 + 2^4 * 1 + 2^5 * 1 + 2^6 * 0 + 2^7 * 0\\n= 8 + 16 + 32\\n= 56\\n\\nCenter at 9 = 00010100\\n= 2^3 * 1 + 2^5 * 1\\n= 8 + 32\\n= 40\\n\\nCenter at 10 = 00100010\\n= 2^2 * 1 + 2^6 * 1\\n= 4 + 64\\n= 68\\n\\nCenter at 7 = 00110110\\n= 2^2 * 1 + 2^3 * 1 + 2^5 * 1 + 2^6 * 1\\n= 4 + 8 + 32 + 64\\n= 108\\n\\nCenter at 12 = 00000010\\n= 2^6 * 1\\n= 64\\n\\n[Visual: - Location: Top left corner\\n- Type: Handwritten mathematical calculations\\n- Content:\\n  - Title: 'Question - 23'\\n  - Diagram: A 4x4 grid with numbers filled in, representing a binary representation of numbers.\\n    - Top row: 1, 2, 3, 8, 10\\n    - Second row: 4, 5, 9, 10, 3\\n    - Third row: 2, 7, 12, 3, 4\\n    - Bottom row: 12, 13, 0, 2, 9\\n    - Bottom row (continued): 0, 1, 5, 2, 21\\n  - Text: 'BBP without padding.'\\n  - Calculations:\\n    - Center at 5: 00011100\\n      - 2^0 * 0 + 2^1 * 0 + 2^2 * 0 + 2^3 * 1 + 2^4 * 1 + 2^5 * 1 + 2^6 * 0 + 2^7 * 0\\n      - = 1 + 2 + 4 + 8 + 16 + 32\\n      - = 63\\n    - Center at 9: 00010100\\n      - 2^3 * 1 + 2^5 * 1\\n      - = 8 + 32\\n      - = 40\\n    - Center at 10: 00100010\\n      - 2^2 * 1 + 2^6 * 1\\n      - = 4 + 64\\n      - = 68\\n    - Center at 7: 00110110\\n      - 2^2 * 1 + 2^3 * 1 + 2^5 * 1 + 2^6 * 1\\n      - = 4 + 8 + 32 + 64\\n      - = 108\\n    - Center at 12: 00000010\\n      - 2^6 * 1\\n      - = 64]"
+        },
+        {
+            "question_number": 24,
+            "question_text": "Explain the concept of Support Vectors Machine (SVM) in brief using a diagram. Mention the width of the margin which we need to maximize for separation of two classes. (2 marks)",
+            "student_answer": "SVM -> Support Vector Machine\\n\\nIn support vector machine,\\nwe make a street with a width\\nsuch that any values on either\\nside of the width compulsorily belong to that class\\nfor a 2-class classifier.\\n\\n\u03c9 -> vector from origin perpendicular to street.\\n\\n[Visual: - Location: Top left of the image\\n- Type: Mathematical calculations and binary representations\\n- Content:\\n  - Center at 3 = 11111001\\n    - 2^0 * 1 + 2^1 * 1 + 2^2 * 1 + 2^3 * 1 + 2^4 * 1 + 2^7 * 1\\n    - 1 + 2 + 4 + 8 + 16 + 128\\n    - 159\\n  - Center at 13 = 00000000\\n    - 0\\n  - Center at 0 = 11111111\\n    - 2^0 * 1 + 2^1 * 1 + 2^2 * 1 + 2^3 * 1 + 2^4 * 1 + 2^5 * 1 + 2^6 * 1 + 2^7 * 1\\n    - 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128\\n    - 255\\n  - Center at 2 = 11111110\\n    - 2^0 * 1 + 2^1 * 1 + 2^2 * 1 + 2^3 * 1 + 2^4 * 1 + 2^5 * 1 + 2^6 * 1\\n    - 1 + 2 + 4 + 8 + 16 + 32 + 64\\n    - 127]\\n\\n[Visual: - Location: Middle left of the image\\n- Type: Table\\n- Content:\\n  - Title: LBP Image\\n  - Table:\\n    - Row 1: 58, 40, 68\\n    - Row 2: 108, 64, 159\\n    - Row 3: 0, 255, 127]\\n\\n[Visual: - Location: Bottom left of the image\\n- Type: Mathematical explanation\\n- Content:\\n  - SVM -> Support Vector Machine\\n  - In support vector machine, we make a street with a width such that any values on either side of the width compulsorily belong to that class for a 2-class classifier.\\n  - \u03c9 -> vector from origin perpendicular to street.]\\n\\n[Visual: - Location: Bottom right of the image\\n- Type: Diagram\\n- Content:\\n  - Diagram of a support vector machine with two classes represented by '+' and '-'.\\n  - \u03c9 vector is shown as a line perpendicular to the street.\\n  - The street is represented by two parallel lines with a width between them.\\n  - The '+' and '-' classes are on either side of the street.]\\n\\nu \u2192 vector to a point we want to measure.\\n\\nLet c be a value s.t. it lies on other side of street\\n\\nw.u > c\\n\\nw.u + b \u2265 0\\nc = -b\\n\\ny(w.xi + b) - 1 = 0 is the decision rule.\\n\\nfew width of the margin\\n\\n= w+ - w-\\n\\nwidth of the margin = (w+ - w-) . 1\\n||w||\\n\\nwidth of the margin = 2\\n||w||\\n\\n[ as w+ = 1 - b\\n  w- = b - 1\\n  so, w+ - w- = 2 ]\\n\\nwe have to maximize 2\\n||w||\\n\\nor maximize 1\\n||w||"
+        },
+        {
+            "question_number": 25,
+            "question_text": "For a blob features to be helpful (in SIFT), what properties of that blob do we need to identify? To call a blob an interesting point or a feature what all characteristics it should have. (2+2 marks)",
+            "student_answer": "The scale invariant properties of the blob\\nthe illumination resistive properties of the blob.\\n\\nFor blob to be an interesting point the neighboring values of the blob should be less than that. The blob should have high edge difference, effect of rotation\\n\\n[Visual: - Location: Top left of the image\\n- Type: Handwritten mathematical notes and equations\\n- Content:\\n  - 'u \u2192 vector to a point we want to measure.'\\n  - 'Let c be a value s.t. it lies on other side of street'\\n  - 'w.u > c'\\n  - 'w.u + b \u2265 0'\\n  - 'c = -b'\\n  - 'yi (w.xi + b) - 1 = 0 is the decision rule.'\\n  - 'few width of the margin'\\n  - 'width of the margin = (w+ - w-)'\\n  - 'width of the margin = (w+ - w-) * 1 / ||w||'\\n  - 'width of the margin = 2 / ||w||'\\n  - 'as w+ = 1 - b'\\n  - 'w- = b - 1'\\n  - 'so, w+ - w- = 2'\\n  - 'we have to maximize 2 / ||w||'\\n  - 'or maximize 1 / ||w||']\\n\\n[Visual: - Location: Top right of the image\\n- Type: Hand-drawn diagram\\n- Content:\\n  - A graph with two axes, one labeled 'w-' and the other labeled 'w+'\\n  - Two lines intersecting at a point labeled 'w'\\n  - One line is labeled '+'\\n  - The other line is labeled '-'\\n  - The intersection point 'w' is marked with an arrow pointing to it]\\n\\nscaling down should not affect it."
+        },
+        {
+            "question_number": 26,
+            "question_text": "Compute the first and second-order derivative of the following function shown in Figure 9 (2 Marks)",
+            "student_answer": "1st order\\n\\nsecond order"
+        },
+        {
+            "question_number": 27,
+            "question_text": "Consider a binary image where a straight line can be detected. The image resolution is 100 \u00d7 100, and the line follows the equation:\\n\\n\\\\[ y = \\\\\\\\sqrt{3}x + 10 \\\\]\\n\\n1. What are the \\\\(\\\\rho\\\\) and \\\\(\\\\theta\\\\) parameters of this line in the Hough Transform space? Assume \\\\(\\\\theta\\\\) is measured counterclockwise from the x-axis and ranges between 0\u00b0 and 180\u00b0. (2 marks)\\n\\n2. Explain how multiple parallel lines with different intercepts but the same slope would appear in the Hough Transform space. (2 marks)",
+            "student_answer": "1) Image resolution - 100 x 100\\n\\neq. y = \u221a3 x + 10\\n\\ny = m x + c\\n\\nm = \u221a3, c = 10\\n\\n\u03b8 = 10, tan \u03b8 = \u221a3\\n\\n\u03b8 = 60\u00b0\\n\\nas tan 60\u00b0 = \u221a3\\n\\n\\nMultiple parallel lines with same slope\\n\\nImage space\\n\\nParameter space.\\n\\n[Visual: - Location: Top of the page\\n- Type: Hand-drawn diagram\\n- Content:\\n  - Title: 'Multiple parallel lines with same slope'\\n  - Image Space:\\n    - Axes: Horizontal and vertical axes are labeled 'Image space.'\\n    - Lines: Multiple parallel lines with the same slope are drawn across the image space.\\n  - Parameter Space:\\n    - Axes: Horizontal and vertical axes are labeled 'Parameter space.'\\n    - Points: Several points are plotted in the parameter space, forming a pattern that resembles a flower or a spiral.]"
+        },
+        {
+            "question_number": 28,
+            "question_text": "In which of the following scenarios can you use a weak perspective camera model for the target object? (1 Mark)",
+            "student_answer": "a)"
+        },
+        {
+            "question_number": 29,
+            "question_text": "In a support vector machine, the decision boundary is defined as: (1 Mark)",
+            "student_answer": "d)"
+        }
+    ]
+}

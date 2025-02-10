@@ -1,0 +1,149 @@
+{
+    "answers": [
+        {
+            "question_number": 1,
+            "question_text": "Sobel operators can only be used to identify vertical derivatives in an image.",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 2,
+            "question_text": "Roberts gradient operator performs derivative in a diagonal direction.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 3,
+            "question_text": "Detecting multiple lines using hough transform is computationally efficient.",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 4,
+            "question_text": "The diameter of the ideal pinhole is inversely proportional to wavelength.",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 5,
+            "question_text": "In Figure 1, we applied a Gaussian filter to the original image and computed the derivative in the x and y directions. True or False: Result 1 is the x-derivative of Gaussian, and result 2 is the y-derivative of Gaussian.",
+            "student_answer": ""
+        },
+        {
+            "question_number": 6,
+            "question_text": "The product and convolution of two Gaussian functions are also Gaussian functions.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 7,
+            "question_text": "In image classification, the size of the output feature map always increases as you move deeper into a Convolutional Neural Network (CNN).",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 8,
+            "question_text": "The ReLU (Rectified Linear Unit) activation function introduces non-linearity to a neural network by converting all negative input values to zero.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 9,
+            "question_text": "Local Binary Patterns (LBP) encode the relationship between a pixel and its neighbors by thresholding their values and considering the result as a binary number.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 10,
+            "question_text": "The SVM classifier can only be applied for binary classification.",
+            "student_answer": "False"
+        },
+        {
+            "question_number": 11,
+            "question_text": "In SVM, the classification of an unknown vector only depends on the dot product.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 12,
+            "question_text": "In the case of gradient edges are detected using maxima thresholding; whereas, in Laplacian they are detected using zero-crossing.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 13,
+            "question_text": "A line in an image space is a circle in the parameter (Hough) space.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 14,
+            "question_text": "In the case of text data, a bag of words vocabulary is basically each unique word in the training corpus.",
+            "student_answer": "True"
+        },
+        {
+            "question_number": 15,
+            "question_text": "What are the factors that can affect image formation? Discuss in brief along with equations the concept of perspective projection. Using the equations highlights how the perspective projection is different from orthographic projection. (1+3+1 marks)",
+            "student_answer": "The factors that can affect image formation are:\\n   i) Occlusion\\n   ii) Intra-class of image\\n   iii) Background illumination\\n\\nPerspective projection\\n\\n(X, Y, Z) (world object)\\n\\n(focal length)\\nf\\nZ\\n\\nImage plane\\n\\n\\[\\\\frac{-y}{y} = \\\\frac{f}{z} \\\\quad ; \\\\quad \\\\frac{-x}{x} = \\\\frac{f}{z}\\]\\n\\n\\[y = -\\\\frac{yf}{z} \\\\quad ; \\\\quad x = -\\\\frac{xf}{z}\\]\\n\\ncoordinate of image formed in terms of object.\\n\\nOrthographic projection have the equation\\n\\n\\[X = x \\\\quad , \\\\quad Y = y\\]\\n\\nThe image plane.\\n\\nThe image height will be same as object height."
+        },
+        {
+            "question_number": 16,
+            "question_text": "Mention at least 3 methods that can be used to recover 3D shapes from 2D images. (2 marks)",
+            "student_answer": "Methods that can be used to recover 3D shapes from 2D images are\\n\\n(i) Contour\\n(ii) Texture\\n(iii) Stereo\\n(iv) Shadow"
+        },
+        {
+            "question_number": 17,
+            "question_text": "Discuss at least 3 unique applications of computer vision in brief. (3 marks)",
+            "student_answer": "Application of computer vision are\\n\\n(i) Object Recognition: This technique is used to identify the object based on our requirement and applying the required classifier to segregate them from others.\\n\\n[Visual: - Location: Top of the page\\n- Type: Equations and Text\\n- Content:\\n  - Equations:\\n    - \\\\(\\\\frac{y}{f} = \\\\frac{Y}{Z}\\\\)\\n    - \\\\(\\\\frac{x}{f} = \\\\frac{X}{Z}\\\\)\\n    - \\(y = -\\\\frac{Yf}{Z}\\\\)\\n    - \\(x = -\\\\frac{Xf}{Z}\\\\)\\n  - Text:\\n    - 'Coordinate of image formed in terms of object.'\\n    - 'Orthographic projection have the equation X=x, Y=y.'\\n    - Diagram:\\n      - Image plane with an arrow pointing to the right labeled 'Image plane.'\\n      - A vertical line labeled 'Image' with an arrow pointing to the right labeled '(X,Y) would object.'\\n      - 'The image height will be same as object height.]\\n\\nii) Video Surveillance: By using high dimension resolution cameras, we can detect the object people for continuous monitoring, for an security purpose.\\n\\niii) Robotics: Nowadays, robots are built up by fitting an computer vision algorithm, for detection, recognition, and for several purposes. So, that it will easily work in the human work field environment."
+        },
+        {
+            "question_number": 18,
+            "question_text": "Compute the histogram plot of an image matrix in Table 1. (2 marks)",
+            "student_answer": "Image matrix\\n\\n3 6 6 8\\n5 3 1 4\\n8 6 5 1\\n4 8 2 3\\n\\nNo. of occurrence\\n\\nHistogram\\n\\n1 2 3 4 5 6 7 8\\nValue\\n\\n[Visual: - Location: Center left\\n- Type: Table\\n- Content:\\n  - Table Title: 'Image matrix'\\n  - Table Data:\\n    - Row 1: 3, 6, 6, 8\\n    - Row 2: 5, 3, 1, 4\\n    - Row 3: 8, 6, 5, 1\\n    - Row 4: 4, 8, 2, 3]\\n\\n[Visual: - Location: Center right\\n- Type: Histogram\\n- Content:\\n  - X-axis Label: 'Value'\\n  - Y-axis Label: 'No. of Occurrence'\\n  - X-axis Values: 1, 2, 3, 4, 5, 6, 7, 8\\n  - Y-axis Values: 1, 2, 3, 4\\n  - Data Points:\\n    - Value 1: 2 occurrences\\n    - Value 2: 1 occurrence\\n    - Value 3: 3 occurrences\\n    - Value 4: 1 occurrence\\n    - Value 5: 1 occurrence\\n    - Value 6: 1 occurrence\\n    - Value 7: 1 occurrence\\n    - Value 8: 2 occurrences]"
+        },
+        {
+            "question_number": 19,
+            "question_text": "What are the performance requirements of a good edge detector? Mention the names along with a 1-3 line description. (2 marks)",
+            "student_answer": "Performance requirement of a good edge detector:\\ni) Less sensitive to noise.\\nii) Good localization.\\n\\nThere are several edge detectors detectors are:\\ni) Laplacian Gaussian Edge Detector: \u2207\u00b2g * f\\nwhere g: Gaussian function, f: image, \u2207\u00b2: Laplacian.\\n\\n[Visual: - Location: Top center\\n- Type: Line graph\\n- Content: \\n  - Title: 'f(x)'\\n  - Graph shows a step function with a sharp increase at the center.]\\n\\n[Visual: - Location: Middle left\\n- Type: Line graph\\n- Content: \\n  - Title: 'n'\\n  - Graph shows a bell-shaped curve.]\\n\\n[Visual: - Location: Middle center\\n- Type: Line graph\\n- Content: \\n  - Title: '\u2207n'\\n  - Graph shows a wave-like pattern with a peak and a trough.]\\n\\n[Visual: - Location: Middle right\\n- Type: Line graph\\n- Content: \\n  - Title: '\u2207\u00b2n'\\n  - Graph shows a wave-like pattern with two peaks and two troughs.]\\n\\n[Visual: - Location: Bottom center\\n- Type: Grid diagram\\n- Content: \\n  - Grid with a crosshair in the center.\\n  - Arrows pointing in different directions from the center.]\\n\\n(ii) Canny Edge detector: \u2207n\u03c3 * f\\n\\nHere, the gradient will calculate\\nalong the orientation of n\u0302, and the\\nzero-crossing will give the edge\\n\\nn\u0302 = \u2207n\u03c3 * f\\n    ||\u2207n\u03c3 * f||\\n\\nExample:\\n\\n[Diagram of a grid with an arrow pointing to a specific cell]"
+        },
+        {
+            "question_number": 20,
+            "question_text": "Describe the total energy (force) needed in the active contour algorithm. Mention each energy clearly through mathematical notation. (2 marks)",
+            "student_answer": "Total Energy = Image Energy + Contour Energy\\nE = Eimage + Econtour\\n\\nEimage = || dv/ds ||^2 = (xi+1 - xi)^2 + (yi+1 - yi)^2\\n\\nEcontour = || d^2v/ds^2 ||^2 = (xi+1 - 2xi + xi-1)^2 + (yi+1 - 2yi + yi-1)^2\\n\\nEtotal = \u03a3i [(xi+1 - xi)^2 + (yi+1 - yi)^2] + \u03a3i [(xi+1 - 2xi + xi-1)^2 + (yi+1 - 2yi + yi-1)^2]\\n\\ncontour points are moved in such a way to minimize the energy.\\n\\n[Visual: - Location: Top of the image\\n- Type: Mathematical Equations\\n- Content:\\n  - Total Energy = Image Energy + Contour Energy\\n  - E = Eimage + Econtour\\n  - Eimage = ||dV/ds||^2 = (xi+1 - xi)^2 + (yi+1 - yi)^2\\n  - Econtour = ||dV/ds^2||^2 = (xi+1 - 2xi + xi-1)^2 + (yi+1 - 2yi + yi-1)^2\\n  - Etotal = \u03a3i [(xi+1 - xi)^2 + (yi+1 - yi)^2] + \u03a3i [(xi+1 - 2xi + xi-1)^2 + (yi+1 - 2yi + yi-1)^2]\\n  - Diagram: A square with a circle inside, labeled with contour points and arrows indicating movement to minimize energy.]"
+        },
+        {
+            "question_number": 21,
+            "question_text": "(i) Given an Input volume of size 32x32x3, we have to apply 10 filters of dimension 5x5 with stride 1, pad 2. What will be the output volume size? (ii) Given an Input volume of size 32x32x3, we have to apply 10 filters of dimension 5x5 with stride 1, pad 2. What are the number of parameters which we have to learn? (iii) Given a 5x5 image matrix shown in Table 2, perform the convolution/filtering using the filter given in Table 3. (1+1+3 marks)",
+            "student_answer": "(i) Input image: 32x32x3\\nFilter: 5x5 (5x5x3)\\nNo. of filters: 10\\nStride: 1\\nPadding: 2\\n\\nOutput size = (N - F + 2P) / stride + 1\\nN: Input size, F: Filter size, P: Padding\\n\\n= (32 - 5 + 2(2)) / 1 + 1\\n= 32\\n\\nOutput size = 32\\nOutput volume = 32x32x10\\n\\n[Visual: - Location: Bottom of the image\\n- Type: Mathematical Equations\\n- Content:\\n  - Input image: 32x32x3\\n  - Filter: 5x5 (5x5x3)\\n  - No. of filters: 10\\n  - Stride: 1\\n  - Padding: 2\\n  - Output size = (N - F + 2P) / stride + 1\\n  - N: Input size, F: Filter size, P: Padding\\n  - Output size = (32 - 5 + 2(2)) / 1 + 1\\n  - Output size = 32\\n  - Output volume = 32x32x10]\\n\\n(iii) Input volume size = 32x32x3\\nNo. of filters = 10\\nDimension of filter = 5x5\\n(5x5x3)\\nStride = 1\\nPadding = 2\\n\\nNo. of parameters = F^2CK\\nF: filter size\\nC: input depth\\nK: count of filters\\n\\n= (5x5)(3)(10)\\nNo. of params = 750\\n\\n[Visual: - Location: Top left\\n- Type: Handwritten mathematical calculations\\n- Content:\\n  - Input volume size = 32x32x3\\n  - No. of filters = 10\\n  - Dimension of filter = 5x5 (5x5x3)\\n  - Stride = 1\\n  - Padding = 2\\n  - No. of parameters = F^2 * C * K\\n    - F: filter size\\n    - C: input depth\\n    - K: count of filters\\n  - (5x5) * (3) * (10) = 750\\n  - No. of params = 750]\\n\\n(iii) Image matrix (5x5)\\n1 1 1 0 0\\n0 1 1 1 0\\n0 0 1 1 1\\n0 0 1 1 0\\n0 1 1 0 0\\n\\nFilter/kernel (3x3)\\n1 0 1\\n0 1 0\\n1 0 1\\n\\nOutput matrix (3x3) with stride = 1\\npadding = 0\\n4 3 4\\n2 4 3\\n2 3 4\\n\\n[Visual: - Location: Bottom left\\n- Type: Handwritten mathematical calculations\\n- Content:\\n  - Image matrix (5x5)\\n  - Filter/kernel (3x3)\\n  - Output matrix (3x3) with stride = 1 and padding = 0\\n  - Image matrix:\\n    ```\\n    1 1 1 0 0\\n    0 1 1 1 0\\n    0 0 1 1 1\\n    0 0 1 1 0\\n    0 1 1 0 0\\n    ```\\n  - Filter/kernel:\\n    ```\\n    1 0 1\\n    0 1 0\\n    1 0 1\\n    ```\\n  - Output matrix:\\n    ```\\n    4 3 4\\n    2 4 3\\n    2 3 4\\n    ```]"
+        },
+        {
+            "question_number": 22,
+            "question_text": "Compute an Integral image of a Figure 6. By using the integral image compute the value of a Haar filter demonstrated using a black and white region. (2+2 marks)",
+            "student_answer": "Integral Image\\n\\n```\\n62  157  239  291  353\\n94  242  366  485  601\\n214 420  606  782  936\\n272 540  794 1080 1299\\n347 640  932 1284 1537\\n401 730 1059 1466 1761\\n```\\n\\n```\\nII_A = II_B + II_C - II_D + II_A\\n```\\n\\n```\\nII_A = II_B + II_C - II_D + II_A\\n```\\n\\n```\\nII_A + II_D - II_B - II_C\\n```\\n\\n```\\nII : Integral Img, II : Img\\n```\\n\\nHaar filter\\n```\\nvalue = \u03a3 (white pixel) - \u03a3 (black pixel)\\n       (933 + 62 - 239 - 347) - (1537 + 239 - 353 - 933)\\n       409 - 490\\n       = -81\\n       = 81\\n```\\n\\n```\\n0  0  0\\n0  1\\n0  1  1\\n```\\n\\n[Visual: - Location: Top left\\n- Type: Integral Image\\n- Content:\\n  - Title: Integral Image\\n  - Integral Image Matrix:\\n    - Top row: 62, 157, 239, 291, 353\\n    - Second row: 94, 242, 366, 485, 601\\n    - Third row: 214, 420, 606, 782, 936\\n    - Fourth row: 272, 540, 794, 1080, 1299\\n    - Fifth row: 347, 640, 932, 1284, 1537\\n    - Sixth row: 401, 730, 1059, 1466, 1761\\n  - Formula:\\n    - \u03a0_A = \u03a0_B + \u03a0_C - \u03a0_D + \u03a0_A\\n    - \u03a0_A + \u03a0_D - \u03a0_B - \u03a0_C\\n  - Diagram:\\n    - A, B, C, D labeled in a 2x2 grid\\n    - Arrows indicating the relationships between A, B, C, and D]\\n\\n[Visual: - Location: Top right\\n- Type: Haar Filter\\n- Content:\\n  - Title: Haar Filter\\n  - Formula:\\n    - Value = \u03a3 (white pixel) - \u03a3 (black pixel)\\n    - (933 + 62 - 239 - 347) - (1537 + 239 - 353 - 933)\\n    - 409 - 490\\n    - -81\\n    - 81]\\n\\n[Visual: - Location: Bottom left\\n- Type: Haar Filter Diagram\\n- Content:\\n  - Diagram:\\n    - 3x3 grid\\n    - Top row: 0, 0, 0\\n    - Middle row: 0, 1, 0\\n    - Bottom row: 0, 1, 1\\n  - Arrows indicating the direction of the filter]\\n\\n[Visual: - Location: Bottom right\\n- Type: Haar Filter Diagram\\n- Content:\\n  - Diagram:\\n    - 3x3 grid\\n    - Arrows indicating the direction of the filter]"
+        },
+        {
+            "question_number": 23,
+            "question_text": "Compute an LBP image of the following matrix. You can do this without padding. (2 marks)",
+            "student_answer": "23) we have used 5x5 filter. as an img is also 5x5.\\nso an a neighborhood value of center value greater than center value the put 0 otherwise 0\\n\\nBinary value of LBP:\\n00000001000000000000000000000000\\n1x2^9 + 2^2 x 1\\n512 + 128 = 1640"
+        },
+        {
+            "question_number": 24,
+            "question_text": "Explain the concept of Support Vectors Machine (SVM) in brief using a diagram. Mention the width of the margin which we need to maximize for separation of two classes. (2 marks)",
+            "student_answer": "24) Support Vector Machine (SVM)\\n\\n[Diagram of SVM with decision boundary and support vectors]\\n\\n[Visual: - Location: Bottom center\\n- Type: Graph\\n- Content:\\n  - Title: 'Support Vector Machine (SVM)'\\n  - Axes:\\n    - X-axis: No label\\n    - Y-axis: No label\\n  - Data Points:\\n    - Circles: Representing one class\\n    - Squares: Representing another class\\n  - Lines:\\n    - w.x + b = 1\\n    - w.x + b = 0\\n    - w.x + b = -1\\n  - Annotations:\\n    - 'Support vector'\\n    - 'Decision boundary'\\n    - 'D+'\\n    - 'D-'\\n  - Color Scheme: Circles and squares are in different colors to distinguish between classes.\\n  - Grid Lines: No grid lines present.\\n  - Reference Points: No specific reference points indicated.]\\n\\nTo maximize the separation of two classes, the margin is used, and maximum the margin the better the support vector machine will be."
+        },
+        {
+            "question_number": 25,
+            "question_text": "For a blob features to be helpful (in SIFT), what properties of that blob do we need to identify? To call a blob an interesting point or a feature what all characteristics it should have. (2+2 marks)",
+            "student_answer": "Blob feature (part with feature localization) plays important role in SIFT. There are properties which make it useful and:\\n\\ni) Brightness (illuminated patch)\\nii) Signature characteristic\\niii) Location\\niv) Vibrant colours\\n\\nTo call a blob an interesting point, it should have following characteristic:\\n\\n(a) Blob should have distinct colour, size which can't be present in its nearby vicinity.\\n(b) Blob should be brighter than other elements, so that it could be identified easily.\\n(c) Blob should have features that are different from others, i.e., signature characteristic.\\n(d) Blob should be located where no more blobs are present."
+        },
+        {
+            "question_number": 26,
+            "question_text": "Compute the first and second-order derivative of the following function shown in Figure 9 (2 Marks)",
+            "student_answer": "first derivative\\n\\nsecond derivative\\n\\n[Visual: - Location: Center left\\n- Type: Hand-drawn graph\\n- Content:\\n  - Title: 'first derivative'\\n  - X-axis: Labeled 't'\\n  - Y-axis: Labeled 'f(t)'\\n  - Graph: A curve with a peak and a trough, indicating the first derivative of a function.]\\n\\n[Visual: - Location: Center right\\n- Type: Hand-drawn graph\\n- Content:\\n  - Title: 'second derivative'\\n  - X-axis: Labeled 't'\\n  - Y-axis: Labeled 'f(t)'\\n  - Graph: A curve with multiple peaks and troughs, indicating the second derivative of a function.]"
+        },
+        {
+            "question_number": 27,
+            "question_text": "Consider a binary image where a straight line can be detected. The image resolution is 100 \u00d7 100, and the line follows the equation:\\n\\n\\\\[ y = \\\\\\\\sqrt{3}x + 10 \\\\]\\n\\n1. What are the \\\\(\\\\rho\\\\) and \\\\(\\\\theta\\\\) parameters of this line in the Hough Transform space? Assume \\\\(\\\\theta\\\\) is measured counterclockwise from the x-axis and ranges between 0\u00b0 and 180\u00b0. (2 marks)\\n\\n2. Explain how multiple parallel lines with different intercepts but the same slope would appear in the Hough Transform space. (2 marks)",
+            "student_answer": "(i) y = \u221a3x + 10\\n   \u221a3x - y + 10 = 0\\n   \u221a3x - y + 10 = 0\\n\\n   p = 10\\n   \u03b8 = sin^(-1)(\u221a3)\\n   = sin^(-1)(\u221a3/2)\\n   \u03b8 = sin^(-1)(\u221a3/2)\\n\\n(ii) y\\n   (x, y) of a particular m and c.\\n   in img space\\n   have diff (m, c) values in parameter space, but their intersection is (m, y)\\n   this will be the same, slope and intercept which the line having\\n   in img space.\\n\\n[Visual: - Location: Top left\\n- Type: Handwritten mathematical expressions and notes\\n- Content:\\n  - 'To maximize the separation of two classes, the margin is used, the maximum the margin the better the support vector machine will be.'\\n  - '27) (i) y = \u221a3x + 10'\\n  - 'x sin\u03b8 - y cos\u03b8 + 10 = 0'\\n  - '\u221a3x - y + 10 = 0'\\n  - 'p = 10'\\n  - '\u03b8 = sin^(-1)(\u221a3)'\\n  - '\u03b8 = sin^(-1)(\u221a3/2)'\\n  - '\u03b8 = sin^(-1)(\u221a3/2) = \u03c0/3'\\n  - A graph with a line labeled 'p = 10' and an angle \u03b8 marked.\\n  - '0 30 60 90'\\n  - 'sin\u03b8 = \u221a3'\\n  - '\u03b8 = sin^(-1)(\u221a3)'\\n  - '\u03b8 = \u03c0/3']\\n\\n[Visual: - Location: Middle left\\n- Type: Graph with data points and lines\\n- Content:\\n  - Title: 'Image space'\\n  - Axes:\\n    - x-axis: Labeled 'x'\\n    - y-axis: Labeled 'y'\\n  - Data Points: Five points marked with circles\\n  - Lines: Three lines connecting the points\\n  - Annotations: 'Image space']\\n\\n[Visual: - Location: Middle right\\n- Type: Graph with data points and lines\\n- Content:\\n  - Title: 'Parameter space'\\n  - Axes:\\n    - x-axis: Labeled 'm'\\n    - y-axis: Labeled 'c'\\n  - Data Points: Multiple points marked with circles\\n  - Lines: Multiple lines connecting the points\\n  - Annotations: '(m,c)']\\n\\n[Visual: - Location: Bottom\\n- Type: Handwritten mathematical expressions and notes\\n- Content:\\n  - '(x_i, y_i) of a particular m and c.'\\n  - 'in image space'\\n  - 'have diff (m,c) values in parameter space, but their intersection is (m,c)'\\n  - 'this will be the same, slope and intercept which the line having in image space.']"
+        },
+        {
+            "question_number": 28,
+            "question_text": "In which of the following scenarios can you use a weak perspective camera model for the target object? (1 Mark)",
+            "student_answer": "(b) An airplane flying at a very high altitude"
+        },
+        {
+            "question_number": 29,
+            "question_text": "In a support vector machine, the decision boundary is defined as: (1 Mark)",
+            "student_answer": "(a) The hyperplane that minimizes the distance from all training points."
+        }
+    ]
+}

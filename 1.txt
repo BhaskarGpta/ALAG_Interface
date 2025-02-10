@@ -1,0 +1,491 @@
+भारतीय विज्ञान शिक्षा एवं अनुसंधान संस्थान भोपाल
+Indian Institute of Science Education and Research Bhopal
+
+NAME: Aman Pasi ROLL NO: 22034
+
+PROGRAMME: BS-MS SECTION: DSE
+
+COURSE: Computer Vision (DSE-312)
+
+IISER, BHOPAL
+28 SEP 2024
+Lecturer Hall Complex
+
+I PLEDGE MY HONOUR AS A GENTLEMAN/LADY THAT DURING THE EXAMINATION I HAVE NEITHER GIVEN ASSISTANCE NOR RECEIVED ASSISTANCE
+
+Aman Pasi
+Signature
+
+Signature of Invigilator/Instructor
+
+16 Pages
+
+
+
+True/False
+
+1) False
+2) True
+3) False
+4) False
+5) True
+6) True
+7) False
+8) True
+9) True
+10) True
+11) True
+12) True
+13) False
+14) True
+
+Question 15
+
+The camera features intrinsic and extrinsic, illumination of the object, distance from the focal point.
+
+Perspective projection
+
+y = -fY / z
+x = -fX / z
+
+z -> depth of the object
+-f as the image is inverted.
+
+[Visual: - Location: Bottom left
+- Type: Diagram
+- Content:
+  - Title: "Perspective projection"
+  - Diagram shows a camera with a focal point and an object at coordinates (X, Y, Z).
+  - The image plane is labeled with coordinates (x, y).
+  - The depth of the object is labeled as "z".
+  - The focal length is labeled as "f".
+  - The image is inverted, indicated by "-f".
+  - Equations are provided:
+    - \( \frac{y}{Y} = -\frac{f}{z} \)
+    - \( y = -\frac{fY}{z} \)
+    - \( x = -\frac{fX}{z} \)]
+
+In perspective projection, we have u = -fx/z and v = -fy/z
+
+For orthographic projection, u = x and v = y
+
+[Diagram: Image with axes and object]
+
+Question - 16
+
+Stereo, Motion, Contour, Texture
+
+Question - 17
+
+Face recognition - we extensively use computer vision and its features in face recognition.
+
+Security cameras - we use the features of a face for the security purposes.
+
+Number plate recognition - we use computer vision for recognising number plates on some anonymous vehicles.
+
+Question - 18
+
+[Table]
+3 | 6 | 6 | 8
+5 | 3 | 1 | 4
+8 | 6 | 5 | 1
+4 | 8 | 8 | 3
+
+[Graph]
+Frequency
+4
+3
+2
+1
+1 2 3 4 5 6 7 8
+numbers
+
+[Visual: - Location: Top of the page
+- Type: Mathematical equations and text
+- Content:
+  - In perspective projection, we have \( u = \frac{fX}{Z} \) and \( v = \frac{fY}{Z} \)
+  - For orthographic projection, \( u = X \) and \( v = Y \)
+  - Diagram showing the relationship between image and object coordinates, with axes labeled \( u, v \) for image and \( X, Y \) for object.]
+
+[Visual: - Location: Below Question 17
+- Type: Stem-and-leaf plot
+- Content:
+  - Stem | Leaf
+  - 3 | 6 6 8
+  - 5 | 3 1 4
+  - 8 | 6 5 1
+  - 4 | 8 8 3]
+
+[Visual: - Location: Below the table
+- Type: Bar chart
+- Content:
+  - Title: Frequency
+  - X-axis: numbers (1, 2, 3, 4, 5, 6, 7, 8)
+  - Y-axis: frequency (1, 2, 3, 4)
+  - Bars: 
+    - 1: frequency 1
+    - 2: frequency 2
+    - 3: frequency 3
+    - 4: frequency 2
+    - 5: frequency 3
+    - 6: frequency 2
+    - 7: frequency 1
+    - 8: frequency 3
+  - Patterns: Each bar is shaded with a diagonal pattern.]
+
+Question - 19
+
+Illumination invariant - the illumination should not highly affect the edges.
+
+Good localisation - the localisation of the detectors should be precise and notice the edges nicely.
+
+Question - 20
+
+E_contour = E_elastic + E_smooth
+
+E_elastic = || dv/ds ||^2
+
+E_smooth = || d^2v/ds^2 ||^2
+
+Question - 21
+
+i) Input 32x32x3
+filter = 5x5
+stride = 1, pad = 2
+output volume size = 32x32x10
+
+ii) F^2CK
+
+iii) Without padding convolution
+stride = 1
+
+4 | 3 | 4
+2 | 4 | 3
+2 | 3 | 4
+
+
+
+Question 22
+
+62 95 82 52 62
+32 53 42 67 54
+120 58 62 57 38
+58 62 68 110 65
+75 25 39 65 34
+54 36 28 64 42
+
+Integral image
+
+62 157 239 291 353
+94 242 366 485 601
+214 418 604 780 934
+272 540 794 1080 1299
+347 640 933 1348 1601
+401 730 1051 1466 1761
+
+Area of white region
+= D - C - B + A
+= 933 - 640 - 366 + 242
+= 169
+
+Area of black region
+= H - G - F - E
+= 1601 - 1348 - 601 + 485
+= 137
+
+value of Haar filter = Area of white region - Area of black region
+= 169 - 137
+= 32
+
+[Visual: - Location: Top of the page
+- Type: Matrix
+- Content: A 6x6 matrix with numerical values. The matrix is as follows:
+```
+62  95  82  52  62
+32  53  42  67  54
+120 58  62  57  38
+58  62  68  110 65
+75  25  39  65  34
+54  36  28  64  42
+```]
+
+[Visual: - Location: Below the matrix
+- Type: Integral Image
+- Content: An integral image of the matrix above. The integral image is as follows:
+```
+62  157  239  291  353
+94  242  366  485  601
+214 418  604  780  934
+272 540  794  1080 1299
+347 640  933  1348 1601
+401 730  1051 1466 1761
+```]
+
+[Visual: - Location: Below the integral image
+- Type: Area of White Region
+- Content: The area of the white region is calculated as follows:
+```
+Area of white region = D - C - B + A
+= 933 - 640 - 366 + 242
+= 169
+```]
+
+[Visual: - Location: Below the area of the white region
+- Type: Area of Black Region
+- Content: The area of the black region is calculated as follows:
+```
+Area of black region = H - G - F - E
+= 1601 - 1348 - 601 + 485
+= 137
+```]
+
+[Visual: - Location: Below the area of the black region
+- Type: Value of Haar Filter
+- Content: The value of the Haar filter is calculated as follows:
+```
+Value of Haar filter = Area of white region - Area of black region
+= 169 - 137
+= 32
+```]
+
+Question - 23
+
+1 2 3 8 10
+4 5 9 10 3
+6 7 12 3 4
+12 13 0 2 9
+0 1 5 2 21
+
+BBP without padding.
+
+Center at 5 = 00011100
+= 2^0.0 + 2^1.0 + 2^2.0 + 2^3.1 + 2^4.1 + 2^5.1 + 2^6.0 + 2^7.0
+= 8 + 16 + 32
+= 56
+
+Center at 9 = 00010100
+= 2^3.1 + 2^5.1
+= 8 + 32
+= 40
+
+Center at 10 = 00100010
+= 2^2.1 + 2^6.1
+= 4 + 64
+= 68
+
+Center at 7 = 00110110
+= 2^2.1 + 2^3.1 + 2^5.1 + 2^6.1
+= 4 + 8 + 32 + 64
+= 108
+
+Center at 12 = 00000010
+= 2^6.1
+= 64
+
+[Visual: - Location: Top left corner
+- Type: Handwritten mathematical calculations
+- Content:
+  - Title: "Question - 23"
+  - Diagram: A 4x4 grid with numbers from 1 to 16.
+  - Calculations:
+    - "BBP without padding."
+    - "Center at 5 = 00011100"
+      - "2^0.0 + 2^1.0 + 2^2.0 + 2^3.1 + 2^4.0 + 2^5.1 + 2^6.0 + 2^7.0"
+      - "8 + 16 + 32"
+      - "56"
+    - "Center at 9 = 00010100"
+      - "2^3.1 + 2^5.1"
+      - "8 + 32"
+      - "40"
+    - "Center at 10 = 00100010"
+      - "2^2.1 + 2^6.1"
+      - "4 + 64"
+      - "68"
+    - "Center at 7 = 00110110"
+      - "2^2.1 + 2^3.1 + 2^5.1 + 2^6.1"
+      - "4 + 8 + 32 + 64"
+      - "108"
+    - "Center at 12 = 00000010"
+      - "2^6.1"
+      - "64"]
+
+center at 3 = 11111001
+= 2^0.1 + 2^1.1 + 2^2.1 + 2^3.1 + 2^4.1 + 2^5.1 + 2^6.1 + 2^7.1
+= 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128
+= 159
+
+center at 13 = 00000000
+= 0
+
+center at 0 = 11111111
+= 2^0.1 + 2^1.1 + 2^2.1 + 2^3.1 + 2^4.1 + 2^5.1 + 2^6.1 + 2^7.1
+= 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128
+= 255
+
+center at 2 = 11111110
+= 2^0.1 + 2^1.1 + 2^2.1 + 2^3.1 + 2^4.1 + 2^5.1 + 2^6.1 + 2^7.1
+= 1 + 2 + 4 + 8 + 16 + 32 + 64
+= 127
+
+LBP image
+
+| 58 | 40 | 68 |
+|----|----|----|
+| 108| 64 | 159|
+| 0  | 255| 127|
+
+Question 24
+
+SVM -> Support Vector Machine
+
+In support vector machine, we make a street with a width such that any values on either side of the width compulsorily belong to that class for a 2-class classifier.
+
+ω -> vector from origin perpendicular to street.
+
+[Visual: - Location: Top of the page
+- Type: Mathematical calculations
+- Content:
+  - Center at 3 = 11111001
+    - 2^0 * 1 + 2^1 * 1 + 2^2 * 1 + 2^3 * 1 + 2^4 * 1 + 2^7 * 1
+    - 1 + 2 + 4 + 8 + 16 + 128
+    - 159
+  - Center at 13 = 00000000
+    - 0
+  - Center at 0 = 11111111
+    - 2^0 * 1 + 2^1 * 1 + 2^2 * 1 + 2^3 * 1 + 2^4 * 1 + 2^5 * 1 + 2^6 * 1 + 2^7 * 1
+    - 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128
+    - 255
+  - Center at 2 = 11111110
+    - 2^0 * 1 + 2^1 * 1 + 2^2 * 1 + 2^3 * 1 + 2^4 * 1 + 2^5 * 1 + 2^6 * 1
+    - 1 + 2 + 4 + 8 + 16 + 32 + 64
+    - 127]
+
+[Visual: - Location: Middle of the page
+- Type: Table
+- Content:
+  - Title: LBP Image
+  - Table:
+    - Row 1: 58, 40, 68
+    - Row 2: 108, 64, 159
+    - Row 3: 0, 255, 127]
+
+[Visual: - Location: Bottom of the page
+- Type: Mathematical explanation
+- Content:
+  - Question: 24
+  - SVM -> Support Vector Machine
+  - In support vector machine, we make a street with a width such that any values on either side of the width compulsorily belong to that class for a 2-class classifier.
+  - w -> vector from origin perpendicular to street.]
+
+[Visual: - Location: Bottom right of the page
+- Type: Diagram
+- Content:
+  - Diagram of a support vector machine with two classes labeled as "+" and "-".
+  - w -> vector from origin perpendicular to street.
+  - The diagram shows the decision boundary and the margin between the two classes.]
+
+u → vector to a point we want to measure.
+
+Let c be a value s.t. it lies on other side of street
+
+w.u > c
+
+w.u + b ≥ 0
+c = -b
+
+yi (w.xi + b) - 1 = 0 is the decision rule.
+
+few width of the margin
+
+= w+ - w-
+
+width of the margin = (w+ - w-) * 1 / ||w||
+
+width of the margin = 2 / ||w||
+
+[ as w+ = 1 - b
+  w- = b - 1
+  so, w+ - w- = 2 ]
+
+we have to maximize 2 / ||w||
+
+or maximize 1 / ||w||
+
+Question - 25
+
+The scale invariant properties of the blob
+the illumination resistant properties
+of the blob.
+
+For blob to be an interesting point the neighboring
+values of the blob should be less than that. The blob
+should have high edge difference, effect of rotation
+
+
+
+scaling down should not affect it.
+
+Question - 26
+
+1st order
+
+second order
+
+Question - 27
+
+1) Image resolution - 100 x 100
+
+eq. y = √3 x + 10
+
+y = mx + c
+
+m = √3, c = 10
+
+θ = 10, tan θ = √3
+
+θ = 60°
+
+as tan 60° = √3
+
+[Visual: - Location: Below the question
+- Type: Hand-drawn diagram
+- Content:
+  - Two sets of waveforms labeled "1st order" and "second order"
+  - The "1st order" waveform consists of two peaks.
+  - The "second order" waveform consists of two peaks with a smaller peak in between.]
+
+[Visual: - Location: Below the image resolution note
+- Type: Handwritten mathematical expressions
+- Content:
+  - "eq > y = √3 x + 10"
+  - "y = m x + c"
+  - "m = √3, c = 10"
+  - "θ = 10, tan θ = √3"
+  - "θ = 60°"
+  - "as tan 60° = √3"]
+
+Multiple parallel lines with same slope
+
+Image space
+
+Parameter space.
+
+Question - 28
+a)
+
+Question - 29
+d)
+
+[Visual: - Location: Top of the page
+- Type: Hand-drawn diagram
+- Content:
+  - Title: "Multiple parallel lines with same slope"
+  - Image Space:
+    - X-axis: Labeled "Image space"
+    - Y-axis: Not labeled
+    - Multiple parallel lines with the same slope are drawn, indicating a set of lines with a constant angle of inclination.
+  - Parameter Space:
+    - X-axis: Labeled "Parameter space"
+    - Y-axis: Not labeled
+    - A series of concentric circles or ellipses are drawn, suggesting a parameter space where the lines from the image space are mapped to.]
+

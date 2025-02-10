@@ -1,0 +1,626 @@
+{
+    "1": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies that Sobel operators can be used to identify both horizontal and vertical derivatives.": {
+                "relevant_portion_ideal": "False",
+                "evaluation": true,
+                "explanation": "The ideal answer is 'False' because Sobel operators are designed to detect both horizontal and vertical edges in an image. The statement in the question is incorrect."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies that Sobel operators can be used to identify both horizontal and vertical derivatives.": {
+                "relevant_portion_student": "False",
+                "evaluation": true,
+                "explanation": "The student's answer is 'False', which aligns with the ideal answer and correctly identifies that Sobel operators can detect both horizontal and vertical derivatives."
+            }
+        }
+    },
+    "2": {
+        "ideal_answer_explanations": {
+            "The answer correctly states that the Roberts gradient operator performs derivative in a diagonal direction.": {
+                "relevant_portion_ideal": "True",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that the Roberts gradient operator performs derivative in a diagonal direction, which aligns with the rubric's requirement."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly states that the Roberts gradient operator performs derivative in a diagonal direction.": {
+                "relevant_portion_student": "True",
+                "evaluation": true,
+                "explanation": "The student's answer matches the ideal answer, correctly stating that the Roberts gradient operator performs derivative in a diagonal direction."
+            }
+        }
+    },
+    "3": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies that detecting multiple lines using Hough transform is computationally expensive.": {
+                "relevant_portion_ideal": "False",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that detecting multiple lines using Hough transform is computationally expensive, which aligns with the rubric's requirement."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies that detecting multiple lines using Hough transform is computationally expensive.": {
+                "relevant_portion_student": "False",
+                "evaluation": true,
+                "explanation": "The student's answer matches the ideal answer, correctly identifying that Hough transform is computationally expensive."
+            }
+        }
+    },
+    "4": {
+        "ideal_answer_explanations": {
+            "The answer correctly states that the diameter of the ideal pinhole is directly proportional to wavelength.": {
+                "relevant_portion_ideal": "False",
+                "evaluation": true,
+                "explanation": "The ideal answer is marked as 'False' because it correctly states that the diameter of the ideal pinhole is directly proportional to wavelength. The statement in the question is incorrect."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly states that the diameter of the ideal pinhole is directly proportional to wavelength.": {
+                "relevant_portion_student": "False",
+                "evaluation": false,
+                "explanation": "The student's answer is also 'False', but it does not provide any explanation or justification for the answer. Therefore, it does not demonstrate understanding of the relationship between pinhole diameter and wavelength."
+            }
+        }
+    },
+    "5": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies that Result 1 is the x-derivative of Gaussian, and result 2 is the y-derivative of Gaussian.": {
+                "relevant_portion_ideal": "True",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that Result 1 is the x-derivative of Gaussian, and result 2 is the y-derivative of Gaussian, fulfilling the rubric's requirement."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies that Result 1 is the x-derivative of Gaussian, and result 2 is the y-derivative of Gaussian.": {
+                "relevant_portion_student": "",
+                "evaluation": false,
+                "explanation": "The student did not provide an answer, failing to meet the rubric's requirement of identifying Result 1 as the x-derivative of Gaussian and Result 2 as the y-derivative of Gaussian."
+            }
+        }
+    },
+    "6": {
+        "ideal_answer_explanations": {
+            "The answer correctly states that the product and convolution of two Gaussian functions are also Gaussian functions.": {
+                "relevant_portion_ideal": "True",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that the product and convolution of two Gaussian functions are also Gaussian functions, which is a well-known mathematical property."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly states that the product and convolution of two Gaussian functions are also Gaussian functions.": {
+                "relevant_portion_student": "True",
+                "evaluation": true,
+                "explanation": "The student's answer matches the ideal answer, correctly stating that the product and convolution of two Gaussian functions are also Gaussian functions."
+            }
+        }
+    },
+    "7": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies that the size of the output feature map can decrease as you move deeper into a Convolutional Neural Network (CNN).": {
+                "relevant_portion_ideal": "False",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that the size of the output feature map can decrease as you move deeper into a CNN. This is because of the use of pooling layers and strides in convolutional layers, which can reduce the spatial dimensions of the feature map."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies that the size of the output feature map can decrease as you move deeper into a Convolutional Neural Network (CNN).": {
+                "relevant_portion_student": "False",
+                "evaluation": true,
+                "explanation": "The student's answer matches the ideal answer, correctly stating that the size of the output feature map can decrease as you move deeper into a CNN."
+            }
+        }
+    },
+    "8": {
+        "ideal_answer_explanations": {
+            "The answer correctly states that the ReLU (Rectified Linear Unit) activation function introduces non-linearity to a neural network by converting all negative input values to zero.": {
+                "relevant_portion_ideal": "True",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that the ReLU activation function introduces non-linearity by converting negative inputs to zero. This is the defining characteristic of the ReLU function."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly states that the ReLU (Rectified Linear Unit) activation function introduces non-linearity to a neural network by converting all negative input values to zero.": {
+                "relevant_portion_student": "True",
+                "evaluation": true,
+                "explanation": "The student's answer matches the ideal answer by stating 'True', indicating a correct understanding of the ReLU function's behavior."
+            }
+        }
+    },
+    "9": {
+        "ideal_answer_explanations": {
+            "The answer correctly states that Local Binary Patterns (LBP) encode the relationship between a pixel and its neighbors by thresholding their values and considering the result as a binary number.": {
+                "relevant_portion_ideal": "True",
+                "evaluation": true,
+                "explanation": "The ideal answer is evaluated as true because it accurately reflects the definition of Local Binary Patterns (LBP) as described in the question prompt. It correctly states that LBP encodes the relationship between a pixel and its neighbors by thresholding their values and representing the result as a binary number."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly states that Local Binary Patterns (LBP) encode the relationship between a pixel and its neighbors by thresholding their values and considering the result as a binary number.": {
+                "relevant_portion_student": "True",
+                "evaluation": true,
+                "explanation": "The student's answer matches the ideal answer by stating 'True', indicating a correct understanding of the concept."
+            }
+        }
+    },
+    "10": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies that the SVM classifier can be applied for both binary and multi-class classification.": {
+                "relevant_portion_ideal": "False",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that SVM can be used for both binary and multi-class classification. The answer 'False' implies that the statement in the question is incorrect, which is true because SVM can be used for multi-class classification."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies that the SVM classifier can be applied for both binary and multi-class classification.": {
+                "relevant_portion_student": "False",
+                "evaluation": true,
+                "explanation": "The student's answer is 'False', which aligns with the ideal answer and correctly identifies that SVM can be used for both binary and multi-class classification."
+            }
+        }
+    },
+    "11": {
+        "ideal_answer_explanations": {
+            "The answer correctly states that in SVM, the classification of an unknown vector only depends on the dot product.": {
+                "relevant_portion_ideal": "True",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that the classification of an unknown vector in SVM depends solely on the dot product, which is a fundamental principle of SVM."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly states that in SVM, the classification of an unknown vector only depends on the dot product.": {
+                "relevant_portion_student": "True",
+                "evaluation": true,
+                "explanation": "The student's answer matches the ideal answer, correctly stating that the classification in SVM depends on the dot product."
+            }
+        }
+    },
+    "12": {
+        "ideal_answer_explanations": {
+            "The answer correctly states that in the case of gradient edges are detected using zero-crossing; whereas, in Laplacian they are detected using maxima thresholding.": {
+                "relevant_portion_ideal": "True",
+                "evaluation": false,
+                "explanation": "The ideal answer is evaluated as false because it states that gradient edges are detected using zero-crossing and Laplacian edges are detected using maxima thresholding. This is incorrect. Gradient edges are detected using maxima thresholding, and Laplacian edges are detected using zero-crossing."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly states that in the case of gradient edges are detected using zero-crossing; whereas, in Laplacian they are detected using maxima thresholding.": {
+                "relevant_portion_student": "True",
+                "evaluation": false,
+                "explanation": "The student's answer is evaluated as false because it states that the answer is true. However, the answer is incorrect as gradient edges are detected using maxima thresholding, and Laplacian edges are detected using zero-crossing."
+            }
+        }
+    },
+    "13": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies that a line in an image space is a point in the parameter (Hough) space.": {
+                "relevant_portion_ideal": "False",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that a line in image space is represented as a point in Hough space. This is because the Hough transform maps lines in image space to points in parameter space, where the parameters are the slope and intercept of the line."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies that a line in an image space is a point in the parameter (Hough) space.": {
+                "relevant_portion_student": "True",
+                "evaluation": false,
+                "explanation": "The student's answer is incorrect. It states that a line in image space is a circle in Hough space, which is the opposite of the correct statement."
+            }
+        }
+    },
+    "14": {
+        "ideal_answer_explanations": {
+            "The answer correctly states that in the case of text data, a bag of words vocabulary is basically each unique word in the training corpus.": {
+                "relevant_portion_ideal": "True",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly states that a bag of words vocabulary is comprised of unique words from the training corpus. This aligns with the definition of a bag of words model, where word order is disregarded, and only the frequency of each word is considered."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly states that in the case of text data, a bag of words vocabulary is basically each unique word in the training corpus.": {
+                "relevant_portion_student": "True",
+                "evaluation": true,
+                "explanation": "The student's answer matches the ideal answer by stating 'True', indicating understanding of the concept."
+            }
+        }
+    },
+    "15": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies at least three factors that can affect image formation: Light Source, Camera (extrinsic and intrinsic parameters), Scene (Surface reflectance, Surface shape).": {
+                "relevant_portion_ideal": "Light Source, Camera (extrinsic and intrinsic parameters), Scene (Surface reflectance, Surface shape)",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly identifies three factors that affect image formation: Light Source, Camera (extrinsic and intrinsic parameters), and Scene (Surface reflectance, Surface shape). These factors are essential for understanding how images are formed."
+            },
+            "The answer correctly explains the concept of perspective projection with equations.": {
+                "relevant_portion_ideal": "Figure 2: (X, Y, Z) is the 3D point, (x, y) is the 2D point on the image plane, f is the focal length.\\n\\n[Visual: - Location: Below Solution 15\\n- Type: Diagram\\n- Content:\\n  - The diagram illustrates the concept of perspective projection.\\n  - It shows a 3D point (X, Y, Z) in the world space.\\n  - The point is projected onto the image plane, resulting in a 2D point (x, y).\\n  - The focal length (f) is indicated.\\n  - The equations for the projection are given:\\n    - \\( \\\\frac{-y}{Y} = \\\\frac{f}{Z} \\)\\n    - \\( x = -\\\\frac{fX}{Z} \\)\\n    - \\( y = -\\\\frac{fY}{Z} \\)]",
+                "evaluation": true,
+                "explanation": "The ideal answer provides a clear explanation of perspective projection, including a diagram and equations. The diagram visually represents the concept, and the equations mathematically define the relationship between the 3D point and its 2D projection."
+            },
+            "The answer correctly highlights how the perspective projection is different from orthographic projection using the equations.": {
+                "relevant_portion_ideal": "In orthographic projection the projection lines are parallel to each other, which means there is no convergence point. All objects are projected with the same scale. i.e., x = X, y = Y.",
+                "evaluation": true,
+                "explanation": "The ideal answer effectively contrasts perspective projection with orthographic projection by highlighting the key difference: perspective projection involves converging projection lines, while orthographic projection uses parallel lines. The equations x = X and y = Y for orthographic projection demonstrate the lack of perspective distortion."
+            },
+            "The answer includes a diagram illustrating the concept of perspective projection.": {
+                "relevant_portion_ideal": "[Visual: - Location: Below Solution 15\\n- Type: Diagram\\n- Content:\\n  - The diagram illustrates the concept of perspective projection.\\n  - It shows a 3D point (X, Y, Z) in the world space.\\n  - The point is projected onto the image plane, resulting in a 2D point (x, y).\\n  - The focal length (f) is indicated.\\n  - The equations for the projection are given:\\n    - \\( \\\\frac{-y}{Y} = \\\\frac{f}{Z} \\)\\n    - \\( x = -\\\\frac{fX}{Z} \\)\\n    - \\( y = -\\\\frac{fY}{Z} \\)]",
+                "evaluation": true,
+                "explanation": "The ideal answer includes a diagram that visually represents the concept of perspective projection. The diagram clearly shows the 3D point, the image plane, the focal length, and the projection process, making the explanation more intuitive and understandable."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies at least three factors that can affect image formation: Light Source, Camera (extrinsic and intrinsic parameters), Scene (Surface reflectance, Surface shape).": {
+                "relevant_portion_student": "The factors that can affect image formation are:\\n   i) Occlusion\\n   ii) Intra-class of image\\n   iii) Background illumination",
+                "evaluation": false,
+                "explanation": "The student's answer identifies factors like occlusion, intra-class of image, and background illumination, which are not the same as the ideal answer's factors. The ideal answer focuses on Light Source, Camera, and Scene, which are more fundamental to image formation."
+            },
+            "The answer correctly explains the concept of perspective projection with equations.": {
+                "relevant_portion_student": "\\[\\\\frac{-y}{y} = \\\\frac{f}{z} \\\\quad ; \\\\quad \\\\frac{-x}{x} = \\\\frac{f}{z}\\]\\n\\n\\[y = -\\\\frac{yf}{z} \\\\quad ; \\\\quad x = -\\\\frac{xf}{z}\\]\\n\\ncoordinate of image formed in terms of object.",
+                "evaluation": false,
+                "explanation": "The student's answer provides equations for perspective projection, but they are incorrect. The equations should be \\( \\\\frac{-y}{Y} = \\\\frac{f}{Z} \\), \\( x = -\\\\frac{fX}{Z} \\), and \\( y = -\\\\frac{fY}{Z} \\). The student's equations are missing the capital letters for the 3D coordinates and have an extra 'y' in the denominator."
+            },
+            "The answer correctly highlights how the perspective projection is different from orthographic projection using the equations.": {
+                "relevant_portion_student": "Orthographic projection have the equation\\n\\n\\[X = x \\\\quad , \\\\quad Y = y\\]\\n\\nThe image plane.\\n\\nThe image height will be same as object height.",
+                "evaluation": true,
+                "explanation": "The student's answer correctly highlights the difference between perspective and orthographic projection using the equations. The student correctly states that in orthographic projection, X = x and Y = y, indicating that there is no perspective distortion."
+            },
+            "The answer includes a diagram illustrating the concept of perspective projection.": {
+                "relevant_portion_student": "(X, Y, Z) (world object)\\n\\n(focal length)\\nf\\nZ\\n\\nImage plane",
+                "evaluation": false,
+                "explanation": "The student's answer does not include a diagram illustrating the concept of perspective projection. While the student provides some visual representation, it is not a complete diagram showing the 3D point, image plane, focal length, and projection process."
+            }
+        }
+    },
+    "16": {
+        "ideal_answer_explanations": {
+            "The answer correctly mentions at least three methods that can be used to recover 3D shapes from 2D images: Stereo, Motion, Shading, Texture, Contours.": {
+                "relevant_portion_ideal": "Stereo, Motion, Shading, Texture, Contours",
+                "evaluation": true,
+                "explanation": "The ideal answer lists five methods, including 'Stereo', 'Motion', 'Shading', 'Texture', and 'Contours', which are all valid methods for recovering 3D shapes from 2D images. It therefore meets the rubric's requirement of mentioning at least three methods."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly mentions at least three methods that can be used to recover 3D shapes from 2D images: Stereo, Motion, Shading, Texture, Contours.": {
+                "relevant_portion_student": "(i) Contour\\n(ii) Texture\\n(iii) Stereo\\n(iv) Shadow",
+                "evaluation": true,
+                "explanation": "The student's answer lists four methods, including 'Contour', 'Texture', 'Stereo', and 'Shadow'. While 'Shadow' is not explicitly mentioned in the ideal answer, it is a valid method for recovering 3D shapes from 2D images. Therefore, the student's answer meets the rubric's requirement of mentioning at least three methods."
+            }
+        }
+    },
+    "17": {
+        "ideal_answer_explanations": {
+            "The answer correctly discusses at least three unique applications of computer vision in brief: Face Recognition, Object Recognition, Remote Sensing, Robotics, Computer Graphics, Agriculture, Autonomous Driving, Retail, Waste Management, Sports, etc.": {
+                "relevant_portion_ideal": "Face Recognition, Object Recognition, Remote Sensing, Robotics, Computer Graphics, Agriculture, Autonomous Driving, Retail, Waste Management, Sports, etc",
+                "evaluation": true,
+                "explanation": "The ideal answer lists multiple unique applications of computer vision, including Face Recognition, Object Recognition, Remote Sensing, Robotics, Computer Graphics, Agriculture, Autonomous Driving, Retail, Waste Management, and Sports. This demonstrates a comprehensive understanding of the diverse applications of computer vision."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly discusses at least three unique applications of computer vision in brief: Face Recognition, Object Recognition, Remote Sensing, Robotics, Computer Graphics, Agriculture, Autonomous Driving, Retail, Waste Management, Sports, etc.": {
+                "relevant_portion_student": "(i) Object Recognition: This technique is used to identify the object based on our requirement and applying the required classifier to segregate them from others.\\n\\n[Visual: - Location: Top of the page\\n- Type: Equations and Text\\n- Content:\\n  - Equations:\\n    - \\\\(\\\\frac{y}{f} = \\\\frac{Y}{Z}\\\\)\\n    - \\\\(\\\\frac{x}{f} = \\\\frac{X}{Z}\\\\)\\n    - \\(y = -\\\\frac{Yf}{Z}\\\\)\\n    - \\(x = -\\\\frac{Xf}{Z}\\\\)\\n  - Text:\\n    - 'Coordinate of image formed in terms of object.'\\n    - 'Orthographic projection have the equation X=x, Y=y.'\\n    - Diagram:\\n      - Image plane with an arrow pointing to the right labeled 'Image plane.'\\n      - A vertical line labeled 'Image' with an arrow pointing to the right labeled '(X,Y) would object.'\\n      - 'The image height will be same as object height.]\\n\\nii) Video Surveillance: By using high dimension resolution cameras, we can detect the object people for continuous monitoring, for an security purpose.\\n\\niii) Robotics: Nowadays, robots are built up by fitting an computer vision algorithm, for detection, recognition, and for several purposes. So, that it will easily work in the human work field environment.",
+                "evaluation": true,
+                "explanation": "The student's answer discusses three unique applications of computer vision: Object Recognition, Video Surveillance, and Robotics. While the explanation for Object Recognition includes unnecessary mathematical equations and a diagram, the student still provides a brief description of the application. The other two applications, Video Surveillance and Robotics, are also discussed in brief, fulfilling the rubric's requirement."
+            }
+        }
+    },
+    "18": {
+        "ideal_answer_explanations": {
+            "The answer correctly computes the histogram plot of the image matrix in Table 1.": {
+                "relevant_portion_ideal": "A histogram plot of an image matrix represents the distribution of pixel intensities (or values) across the image. It shows how frequently each intensity level appears in the image. Histogram plot is given in Figure 3.\\n\\n[Histogram Plot]\\n\\nFigure 3: Histogram Plot",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly defines a histogram plot and states that it represents the distribution of pixel intensities. It also includes a visual representation of the histogram plot, indicating that it has been computed correctly."
+            },
+            "The answer includes a histogram plot of the image matrix.": {
+                "relevant_portion_ideal": "[Histogram Plot]\\n\\nFigure 3: Histogram Plot",
+                "evaluation": true,
+                "explanation": "The ideal answer includes a visual representation of the histogram plot, labeled as 'Figure 3: Histogram Plot'. This indicates that the answer includes a histogram plot of the image matrix."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly computes the histogram plot of the image matrix in Table 1.": {
+                "relevant_portion_student": "[Visual: - Location: Center right\\n- Type: Histogram\\n- Content:\\n  - X-axis Label: 'Value'\\n  - Y-axis Label: 'No. of Occurrence'\\n  - X-axis Values: 1, 2, 3, 4, 5, 6, 7, 8\\n  - Y-axis Values: 1, 2, 3, 4\\n  - Data Points:\\n    - Value 1: 2 occurrences\\n    - Value 2: 1 occurrence\\n    - Value 3: 3 occurrences\\n    - Value 4: 1 occurrence\\n    - Value 5: 1 occurrence\\n    - Value 6: 1 occurrence\\n    - Value 7: 1 occurrence\\n    - Value 8: 2 occurrences]",
+                "evaluation": true,
+                "explanation": "The student's answer provides a detailed description of the histogram plot, including the axes labels, values, and data points. This indicates that the student has correctly computed the histogram plot."
+            },
+            "The answer includes a histogram plot of the image matrix.": {
+                "relevant_portion_student": "[Visual: - Location: Center right\\n- Type: Histogram\\n- Content:\\n  - X-axis Label: 'Value'\\n  - Y-axis Label: 'No. of Occurrence'\\n  - X-axis Values: 1, 2, 3, 4, 5, 6, 7, 8\\n  - Y-axis Values: 1, 2, 3, 4\\n  - Data Points:\\n    - Value 1: 2 occurrences\\n    - Value 2: 1 occurrence\\n    - Value 3: 3 occurrences\\n    - Value 4: 1 occurrence\\n    - Value 5: 1 occurrence\\n    - Value 6: 1 occurrence\\n    - Value 7: 1 occurrence\\n    - Value 8: 2 occurrences]",
+                "evaluation": true,
+                "explanation": "The student's answer explicitly states that it includes a histogram plot, and provides a detailed description of its content. This indicates that the answer includes a histogram plot of the image matrix."
+            }
+        }
+    },
+    "19": {
+        "ideal_answer_explanations": {
+            "The answer correctly mentions at least three performance requirements of a good edge detector: High Detection Rate, Good Localization, Low Noise Sensitivity.": {
+                "relevant_portion_ideal": "- High Detection Rate: The edge detector should accurately identify all true edges in an image, minimizing missed edges.\\n- Good Localization: Detected edges should be precisely located at the correct positions without deviation.\\n- Low Noise Sensitivity: The edge detector should resist false edge detection caused by image noise, ensuring reliable performance in noisy environments.",
+                "evaluation": true,
+                "explanation": "The ideal answer lists three performance requirements: High Detection Rate, Good Localization, and Low Noise Sensitivity. Each requirement is clearly stated and explained in a concise manner."
+            },
+            "The answer provides a brief description of each performance requirement.": {
+                "relevant_portion_ideal": "- High Detection Rate: The edge detector should accurately identify all true edges in an image, minimizing missed edges.\\n- Good Localization: Detected edges should be precisely located at the correct positions without deviation.\\n- Low Noise Sensitivity: The edge detector should resist false edge detection caused by image noise, ensuring reliable performance in noisy environments.",
+                "evaluation": true,
+                "explanation": "The ideal answer provides a brief description of each performance requirement, explaining their importance in edge detection. For example, 'High Detection Rate' is explained as accurately identifying all true edges, minimizing missed edges. Similarly, 'Good Localization' is described as precisely locating edges at the correct positions, and 'Low Noise Sensitivity' is explained as resisting false edge detection caused by noise."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly mentions at least three performance requirements of a good edge detector: High Detection Rate, Good Localization, Low Noise Sensitivity.": {
+                "relevant_portion_student": "Performance requirement of a good edge detector:\\ni) Less sensitive to noise.\\nii) Good localization.",
+                "evaluation": false,
+                "explanation": "The student's answer only mentions two performance requirements: 'Less sensitive to noise' and 'Good localization'. It does not mention 'High Detection Rate', which is a crucial requirement for a good edge detector."
+            },
+            "The answer provides a brief description of each performance requirement.": {
+                "relevant_portion_student": "Performance requirement of a good edge detector:\\ni) Less sensitive to noise.\\nii) Good localization.",
+                "evaluation": false,
+                "explanation": "The student's answer only provides a brief description of 'Good localization'. It does not provide a description for 'Less sensitive to noise', which is equivalent to 'Low Noise Sensitivity' in the ideal answer."
+            }
+        }
+    },
+    "20": {
+        "ideal_answer_explanations": {
+            "The answer correctly describes the total energy (force) needed in the active contour algorithm using mathematical notation.": {
+                "relevant_portion_ideal": "\\[ E_{total} = E_{image} + E_{contour} \\]\\n\\nwhere,\\n\\n\\[ E_{contour} = \\\\alpha E_{elastic} + \\\\beta E_{smooth} \\]\\n\\nFor a contour, \\( v = \\\\{v_i = (x_i, y_i) | i = 0, 1, 2, ..., n\\\\} \\)\\n\\n\\[ E_{image} = -\\\\sum_{i=0}^{n-1} ||\\\\nabla n_{\\\\sigma} * I(v_i)||^2 \\]\\n\\nFor a point \\( 0 \\\\leq s \\\\leq 1 \\) on continuous contour \\( v(s) = (x(s), y(s)) \\)\\n\\n\\[ E_{elastic} = ||\\\\frac{dv}{ds}||^2 \\]\\n\\n\\[ E_{smooth} = ||\\\\frac{d^2v}{ds^2}||^2 \\]",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly describes the total energy using mathematical notation. It defines the total energy as the sum of image energy and contour energy, and further breaks down contour energy into elastic and smooth energy components. It also provides mathematical expressions for each energy component, including the image energy, elastic energy, and smooth energy."
+            },
+            "The answer correctly mentions each energy component: E_image, E_contour, E_elastic, E_smooth.": {
+                "relevant_portion_ideal": "\\[ E_{total} = E_{image} + E_{contour} \\]\\n\\nwhere,\\n\\n\\[ E_{contour} = \\\\alpha E_{elastic} + \\\\beta E_{smooth} \\]",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly mentions all four energy components: E_image, E_contour, E_elastic, and E_smooth. It explicitly states the total energy as the sum of image energy and contour energy, and further defines contour energy as a weighted sum of elastic energy and smooth energy."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly describes the total energy (force) needed in the active contour algorithm using mathematical notation.": {
+                "relevant_portion_student": "Total Energy = Image Energy + Contour Energy\\nE = Eimage + Econtour\\n\\nEimage = || dv/ds ||^2 = (xi+1 - xi)^2 + (yi+1 - yi)^2\\n\\nEcontour = || d^2v/ds^2 ||^2 = (xi+1 - 2xi + xi-1)^2 + (yi+1 - 2yi + yi-1)^2\\n\\nEtotal = \u03a3i [(xi+1 - xi)^2 + (yi+1 - yi)^2] + \u03a3i [(xi+1 - 2xi + xi-1)^2 + (yi+1 - 2yi + yi-1)^2]",
+                "evaluation": true,
+                "explanation": "The student's answer correctly describes the total energy using mathematical notation. It defines the total energy as the sum of image energy and contour energy, and provides mathematical expressions for each energy component, including the image energy and contour energy. The student also uses summation notation to express the total energy."
+            },
+            "The answer correctly mentions each energy component: E_image, E_contour, E_elastic, E_smooth.": {
+                "relevant_portion_student": "Total Energy = Image Energy + Contour Energy\\nE = Eimage + Econtour\\n\\nEimage = || dv/ds ||^2 = (xi+1 - xi)^2 + (yi+1 - yi)^2\\n\\nEcontour = || d^2v/ds^2 ||^2 = (xi+1 - 2xi + xi-1)^2 + (yi+1 - 2yi + yi-1)^2",
+                "evaluation": false,
+                "explanation": "The student's answer does not mention E_elastic and E_smooth. It only mentions E_image and E_contour, which are the components of the total energy, but not the sub-components of E_contour."
+            }
+        }
+    },
+    "21": {
+        "ideal_answer_explanations": {
+            "The answer correctly calculates the output volume size for the given input volume and filter parameters.": {
+                "relevant_portion_ideal": "Output size = ((32 - 5 + (2*2)) / 1) + 1 = 32.\\n\\nOutput size = 32*32*10",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly applies the formula for calculating the output volume size, considering the input volume size, filter size, stride, and padding. It then calculates the output volume size for each dimension and multiplies them to get the final output volume size."
+            },
+            "The answer correctly calculates the number of parameters that need to be learned for the given input volume and filter parameters.": {
+                "relevant_portion_ideal": "Each filter have 5*5*3 + 1 parameters = 76 parameters.\\n\\nNo. of filters = 10. Total no. of parameters = 76 * 10 = 760 parameters.",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly calculates the number of parameters per filter by considering the filter size, input depth, and bias term. It then multiplies this value by the number of filters to get the total number of parameters."
+            },
+            "The answer correctly performs the convolution/filtering operation using the filter given in Table 3 on the 5x5 image matrix in Table 2.": {
+                "relevant_portion_ideal": "First two convolution operations are shown in Figure 4 and Figure 5. Similarly, others convolution operations can be performed and the final output after convolution is given in the below matrix:\\n\\n\\[\\\\begin{bmatrix}\\\\ 4 & 3 & 4 \\\\\\\\ 2 & 4 & 3 \\\\\\\\ 2 & 3 & 4 \\\\end{bmatrix}\\]",
+                "evaluation": true,
+                "explanation": "The ideal answer demonstrates the convolution operation by showing the output matrix after convolution. It mentions that the first two convolution operations are shown in figures, implying that the answer includes visual representations of the convolution process."
+            },
+            "The answer includes visual representations of the convolution operations.": {
+                "relevant_portion_ideal": "First two convolution operations are shown in Figure 4 and Figure 5. Similarly, others convolution operations can be performed and the final output after convolution is given in the below matrix:\\n\\n\\[\\\\begin{bmatrix}\\\\ 4 & 3 & 4 \\\\\\\\ 2 & 4 & 3 \\\\\\\\ 2 & 3 & 4 \\\\end{bmatrix}\\]",
+                "evaluation": true,
+                "explanation": "The ideal answer explicitly states that the first two convolution operations are shown in figures, indicating the presence of visual representations. It also provides the final output matrix after convolution, which can be considered a visual representation of the result."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly calculates the output volume size for the given input volume and filter parameters.": {
+                "relevant_portion_student": "Output size = (N - F + 2P) / stride + 1\\nN: Input size, F: Filter size, P: Padding\\n\\n= (32 - 5 + 2(2)) / 1 + 1\\n= 32\\n\\nOutput size = 32\\nOutput volume = 32x32x10",
+                "evaluation": true,
+                "explanation": "The student correctly applies the formula and calculates the output volume size, similar to the ideal answer."
+            },
+            "The answer correctly calculates the number of parameters that need to be learned for the given input volume and filter parameters.": {
+                "relevant_portion_student": "No. of parameters = F^2CK\\nF: filter size\\nC: input depth\\nK: count of filters\\n\\n= (5x5)(3)(10)\\nNo. of params = 750",
+                "evaluation": false,
+                "explanation": "The student's answer incorrectly calculates the number of parameters. It misses the bias term, which is added to each filter. The ideal answer correctly includes the bias term in the calculation."
+            },
+            "The answer correctly performs the convolution/filtering operation using the filter given in Table 3 on the 5x5 image matrix in Table 2.": {
+                "relevant_portion_student": "Image matrix (5x5)\\n1 1 1 0 0\\n0 1 1 1 0\\n0 0 1 1 1\\n0 0 1 1 0\\n0 1 1 0 0\\n\\nFilter/kernel (3x3)\\n1 0 1\\n0 1 0\\n1 0 1\\n\\nOutput matrix (3x3) with stride = 1\\npadding = 0\\n4 3 4\\n2 4 3\\n2 3 4",
+                "evaluation": true,
+                "explanation": "The student correctly performs the convolution operation and provides the output matrix, similar to the ideal answer."
+            },
+            "The answer includes visual representations of the convolution operations.": {
+                "relevant_portion_student": "[Visual: - Location: Bottom left\\n- Type: Handwritten mathematical calculations\\n- Content:\\n  - Image matrix (5x5)\\n  - Filter/kernel (3x3)\\n  - Output matrix (3x3) with stride = 1 and padding = 0\\n  - Image matrix:\\n    ```\\n    1 1 1 0 0\\n    0 1 1 1 0\\n    0 0 1 1 1\\n    0 0 1 1 0\\n    0 1 1 0 0\\n    ```\\n  - Filter/kernel:\\n    ```\\n    1 0 1\\n    0 1 0\\n    1 0 1\\n    ```\\n  - Output matrix:\\n    ```\\n    4 3 4\\n    2 4 3\\n    2 3 4\\n    ```]",
+                "evaluation": true,
+                "explanation": "The student's answer includes a visual representation of the convolution operation by showing the input image matrix, filter/kernel, and output matrix. This aligns with the ideal answer's requirement for visual representations."
+            }
+        }
+    },
+    "22": {
+        "ideal_answer_explanations": {
+            "The answer correctly computes the integral image of the matrix in Figure 6.": {
+                "relevant_portion_ideal": "Table 4: Integral Image\\n\\n| 62 | 157 | 239 | 291 | 353 |\\n|----|-----|-----|-----|-----|\\n| 94 | 242 | 366 | 485 | 601 |\\n| 214| 420 | 606 | 782 | 936 |\\n| 272| 540 | 794 | 1080| 1299|\\n| 347| 640 | 933 | 1284| 1537|\\n| 401| 730 | 1051| 1466| 1761|",
+                "evaluation": true,
+                "explanation": "The ideal answer provides a table labeled 'Integral Image' with values that correctly represent the cumulative sum of the corresponding input pixel with all pixels above and left of the input pixel. This demonstrates a correct understanding of the integral image computation."
+            },
+            "The answer correctly computes the value of the Haar filter using the integral image.": {
+                "relevant_portion_ideal": "Haar filters = 409 - 490 = -81",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly calculates the Haar filter value using the integral image values. It subtracts the sum of pixel intensities in the black area from the sum of pixel intensities in the white area, demonstrating a correct understanding of Haar filter computation."
+            },
+            "The answer includes a table representing the integral image.": {
+                "relevant_portion_ideal": "Table 4: Integral Image\\n\\n| 62 | 157 | 239 | 291 | 353 |\\n|----|-----|-----|-----|-----|\\n| 94 | 242 | 366 | 485 | 601 |\\n| 214| 420 | 606 | 782 | 936 |\\n| 272| 540 | 794 | 1080| 1299|\\n| 347| 640 | 933 | 1284| 1537|\\n| 401| 730 | 1051| 1466| 1761|",
+                "evaluation": true,
+                "explanation": "The ideal answer includes a table labeled 'Integral Image' which clearly presents the integral image values, fulfilling the requirement of the rubric."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly computes the integral image of the matrix in Figure 6.": {
+                "relevant_portion_student": "```\\n62  157  239  291  353\\n94  242  366  485  601\\n214 420  606  782  936\\n272 540  794 1080 1299\\n347 640  932 1284 1537\\n401 730 1059 1466 1761\\n```",
+                "evaluation": true,
+                "explanation": "The student's answer correctly presents the integral image values in a table format, matching the ideal answer's table."
+            },
+            "The answer correctly computes the value of the Haar filter using the integral image.": {
+                "relevant_portion_student": "```\\nvalue = \u03a3 (white pixel) - \u03a3 (black pixel)\\n       (933 + 62 - 239 - 347) - (1537 + 239 - 353 - 933)\\n       409 - 490\\n       = -81\\n       = 81\\n```",
+                "evaluation": true,
+                "explanation": "The student's answer correctly calculates the Haar filter value using the integral image values, matching the ideal answer's calculation."
+            },
+            "The answer includes a table representing the integral image.": {
+                "relevant_portion_student": "```\\n62  157  239  291  353\\n94  242  366  485  601\\n214 420  606  782  936\\n272 540  794 1080 1299\\n347 640  932 1284 1537\\n401 730 1059 1466 1761\\n```",
+                "evaluation": true,
+                "explanation": "The student's answer includes a table representing the integral image, fulfilling the requirement of the rubric."
+            }
+        }
+    },
+    "23": {
+        "ideal_answer_explanations": {
+            "The answer correctly computes the LBP image of the given matrix.": {
+                "relevant_portion_ideal": "\\[\\\\begin{bmatrix}\\\\ 28 & 20 & 34 \\\\\\\\ 54 & 2 & 249 \\\\\\\\ 0 & 255 & 254 \\\\end{bmatrix}\\]",
+                "evaluation": true,
+                "explanation": "The ideal answer provides a 3x3 matrix, which is the correct size for the LBP image of the given 3x3 matrix. The values in the matrix are the result of applying the LBP operator to each pixel in the original matrix, indicating a correct computation."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly computes the LBP image of the given matrix.": {
+                "relevant_portion_student": "23) we have used 5x5 filter. as an img is also 5x5.\\nso an a neighborhood value of center value greater than center value the put 0 otherwise 0\\n\\nBinary value of LBP:\\n00000001000000000000000000000000\\n1x2^9 + 2^2 x 1\\n512 + 128 = 1640",
+                "evaluation": false,
+                "explanation": "The student's answer does not provide the LBP image as a matrix. Instead, it describes the process and provides a binary representation and a decimal value, which are not the correct output for the LBP image."
+            }
+        }
+    },
+    "24": {
+        "ideal_answer_explanations": {
+            "The answer correctly explains the concept of Support Vectors Machine (SVM) in brief using a diagram.": {
+                "relevant_portion_ideal": "Support Vectors are the closest data points which separate two classes. Support vectors are given in Figure 7. Maximum margin is given by:\\n\\n\\[\\\\frac{2}{||w||}\\]\\n\\nFigure 7: Support Vectors in Support Vector Machine\\n\\n[Visual: - Location: Bottom of the page\\n- Type: Diagram\\n- Content:\\n  - Title: Support Vectors in Support Vector Machine\\n  - Diagram:\\n    - Support vectors are the closest data points which separate two classes.\\n    - Support vectors are given in Figure 7.\\n    - Maximum margin is given by: \\(\\\\frac{2}{\\\\|w\\\\|}\\)\\n    - Diagram shows:\\n      - Support vectors (blue diamonds)\\n      - Optimal hyperplane (black line)\\n      - Maximised margin (dashed lines)\\n      - Data points (green circles)\\n      - Axes (x and y)\\n      - Labels: Support vector, Optimal Hyperplane, Maximised margin]",
+                "evaluation": true,
+                "explanation": "The ideal answer provides a concise explanation of SVM, highlighting the role of support vectors in separating classes. It also mentions the formula for calculating the maximum margin, which is crucial for SVM optimization. The diagram further clarifies the concept by visually representing the support vectors, optimal hyperplane, and maximized margin."
+            },
+            "The answer correctly mentions the width of the margin which we need to maximize for separation of two classes.": {
+                "relevant_portion_ideal": "Maximum margin is given by:\\n\\n\\[\\\\frac{2}{||w||}\\]",
+                "evaluation": true,
+                "explanation": "The ideal answer explicitly states the formula for calculating the maximum margin, which is  \\(\\\\frac{2}{\\\\|w\\\\|}\\). This formula directly addresses the rubric's requirement to mention the width of the margin that needs to be maximized for class separation."
+            },
+            "The answer includes a diagram illustrating the concept of Support Vectors Machine (SVM).": {
+                "relevant_portion_ideal": "[Visual: - Location: Bottom of the page\\n- Type: Diagram\\n- Content:\\n  - Title: Support Vectors in Support Vector Machine\\n  - Diagram:\\n    - Support vectors are the closest data points which separate two classes.\\n    - Support vectors are given in Figure 7.\\n    - Maximum margin is given by: \\(\\\\frac{2}{\\\\|w\\\\|}\\)\\n    - Diagram shows:\\n      - Support vectors (blue diamonds)\\n      - Optimal hyperplane (black line)\\n      - Maximised margin (dashed lines)\\n      - Data points (green circles)\\n      - Axes (x and y)\\n      - Labels: Support vector, Optimal Hyperplane, Maximised margin]",
+                "evaluation": true,
+                "explanation": "The ideal answer includes a detailed description of a diagram illustrating the concept of SVM. It specifies the location, type, content, and key elements of the diagram, ensuring a clear understanding of the visual representation of SVM."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly explains the concept of Support Vectors Machine (SVM) in brief using a diagram.": {
+                "relevant_portion_student": "24) Support Vector Machine (SVM)\\n\\n[Diagram of SVM with decision boundary and support vectors]\\n\\n[Visual: - Location: Bottom center\\n- Type: Graph\\n- Content:\\n  - Title: 'Support Vector Machine (SVM)'\\n  - Axes:\\n    - X-axis: No label\\n    - Y-axis: No label\\n  - Data Points:\\n    - Circles: Representing one class\\n    - Squares: Representing another class\\n  - Lines:\\n    - w.x + b = 1\\n    - w.x + b = 0\\n    - w.x + b = -1\\n  - Annotations:\\n    - 'Support vector'\\n    - 'Decision boundary'\\n    - 'D+'\\n    - 'D-'\\n  - Color Scheme: Circles and squares are in different colors to distinguish between classes.\\n  - Grid Lines: No grid lines present.\\n  - Reference Points: No specific reference points indicated.]\\n\\nTo maximize the separation of two classes, the margin is used, and maximum the margin the better the support vector machine will be.",
+                "evaluation": true,
+                "explanation": "The student's answer provides a brief explanation of SVM, focusing on the role of the decision boundary and support vectors. The diagram, although lacking labels for the axes, effectively illustrates the concept of SVM by showing the decision boundary, support vectors, and data points representing different classes. The explanation also mentions the importance of maximizing the margin for better SVM performance."
+            },
+            "The answer correctly mentions the width of the margin which we need to maximize for separation of two classes.": {
+                "relevant_portion_student": "To maximize the separation of two classes, the margin is used, and maximum the margin the better the support vector machine will be.",
+                "evaluation": true,
+                "explanation": "The student's answer correctly mentions the importance of maximizing the margin for better SVM performance. Although it doesn't explicitly state the formula for calculating the margin, it implicitly conveys the concept of maximizing the margin for class separation."
+            },
+            "The answer includes a diagram illustrating the concept of Support Vectors Machine (SVM).": {
+                "relevant_portion_student": "[Diagram of SVM with decision boundary and support vectors]\\n\\n[Visual: - Location: Bottom center\\n- Type: Graph\\n- Content:\\n  - Title: 'Support Vector Machine (SVM)'\\n  - Axes:\\n    - X-axis: No label\\n    - Y-axis: No label\\n  - Data Points:\\n    - Circles: Representing one class\\n    - Squares: Representing another class\\n  - Lines:\\n    - w.x + b = 1\\n    - w.x + b = 0\\n    - w.x + b = -1\\n  - Annotations:\\n    - 'Support vector'\\n    - 'Decision boundary'\\n    - 'D+'\\n    - 'D-'\\n  - Color Scheme: Circles and squares are in different colors to distinguish between classes.\\n  - Grid Lines: No grid lines present.\\n  - Reference Points: No specific reference points indicated.]",
+                "evaluation": true,
+                "explanation": "The student's answer includes a diagram illustrating the concept of SVM. The diagram shows the decision boundary, support vectors, and data points representing different classes. Although the axes are not labeled, the diagram effectively conveys the key elements of SVM."
+            }
+        }
+    },
+    "25": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies the properties of a blob that need to be identified for it to be helpful in SIFT: location, size, orientation.": {
+                "relevant_portion_ideal": "- Locate the blob\\n- Determine its size\\n- Determine its orientation",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly identifies the three key properties of a blob for SIFT: location, size, and orientation. These properties are essential for accurately describing and comparing blobs across different images."
+            },
+            "The answer correctly identifies the characteristics of an interesting point or feature in SIFT: rich image content, well-defined representation, well-defined position, invariance to rotation and scaling, insensitivity to lighting changes.": {
+                "relevant_portion_ideal": "- Has rich image content (brightness variation, color variation, etc)\\n- Has well-defined representation (signature) for matching/comparing with other points.\\n- Has well-defined position in the image.\\n- Should be invariant to image rotation and scaling.\\n- Should be insensitive to lighting changes.",
+                "evaluation": true,
+                "explanation": "The ideal answer accurately lists the five key characteristics of an interesting point or feature in SIFT. These characteristics ensure that the features are robust and reliable for matching across different images, even under varying conditions."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies the properties of a blob that need to be identified for it to be helpful in SIFT: location, size, orientation.": {
+                "relevant_portion_student": "i) Brightness (illuminated patch)\\nii) Signature characteristic\\niii) Location",
+                "evaluation": false,
+                "explanation": "The student's answer mentions 'Brightness' and 'Signature characteristic' instead of 'size' and 'orientation'. While 'Brightness' can be related to 'rich image content', it's not a fundamental property like size and orientation for blob identification in SIFT."
+            },
+            "The answer correctly identifies the characteristics of an interesting point or feature in SIFT: rich image content, well-defined representation, well-defined position, invariance to rotation and scaling, insensitivity to lighting changes.": {
+                "relevant_portion_student": "(a) Blob should have distinct colour, size which can't be present in its nearby vicinity.\\n(b) Blob should be brighter than other elements, so that it could be identified easily.\\n(c) Blob should have features that are different from others, i.e., signature characteristic.\\n(d) Blob should be located where no more blobs are present.",
+                "evaluation": false,
+                "explanation": "The student's answer mentions 'distinct colour, size' which is partially correct but doesn't explicitly mention 'invariance to rotation and scaling' and 'insensitivity to lighting changes'. The student also mentions 'Blob should be brighter than other elements' which is not a key characteristic of an interesting point in SIFT. Instead, it should have 'rich image content' which includes brightness variation."
+            }
+        }
+    },
+    "26": {
+        "ideal_answer_explanations": {
+            "The answer correctly computes the first and second-order derivative of the function shown in Figure 9.": {
+                "relevant_portion_ideal": "Solution 26: Both 1st and 2nd derivatives is given in the Figure 8",
+                "evaluation": true,
+                "explanation": "The ideal answer states that the first and second derivatives are provided in Figure 8. This implies that the answer correctly computes the derivatives, as it references a figure containing the computed results."
+            },
+            "The answer includes a visual representation of the derivatives.": {
+                "relevant_portion_ideal": "Figure 8: Derivatives",
+                "evaluation": true,
+                "explanation": "The ideal answer explicitly mentions 'Figure 8: Derivatives', indicating that the answer includes a visual representation of the derivatives."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly computes the first and second-order derivative of the function shown in Figure 9.": {
+                "relevant_portion_student": "first derivative\\n\\nsecond derivative",
+                "evaluation": false,
+                "explanation": "The student answer only mentions 'first derivative' and 'second derivative' without providing any actual computation or reference to a figure containing the computed results. This does not demonstrate that the student correctly computed the derivatives."
+            },
+            "The answer includes a visual representation of the derivatives.": {
+                "relevant_portion_student": "[Visual: - Location: Center left\\n- Type: Hand-drawn graph\\n- Content:\\n  - Title: 'first derivative'\\n  - X-axis: Labeled 't'\\n  - Y-axis: Labeled 'f(t)'\\n  - Graph: A curve with a peak and a trough, indicating the first derivative of a function.]\\n\\n[Visual: - Location: Center right\\n- Type: Hand-drawn graph\\n- Content:\\n  - Title: 'second derivative'\\n  - X-axis: Labeled 't'\\n  - Y-axis: Labeled 'f(t)'\\n  - Graph: A curve with multiple peaks and troughs, indicating the second derivative of a function.]",
+                "evaluation": true,
+                "explanation": "The student answer includes a detailed description of two hand-drawn graphs, one labeled 'first derivative' and the other 'second derivative'. This fulfills the requirement of a visual representation of the derivatives."
+            }
+        }
+    },
+    "27": {
+        "ideal_answer_explanations": {
+            "The answer correctly calculates the \u03c1 and \u03b8 parameters of the line in the Hough Transform space.": {
+                "relevant_portion_ideal": "We know that:\\n\\n\\[ m = \\\\tan(\\\\theta) = \\\\sqrt{3} \\]\\n\\nThus,\\n\\n\\[ \\\\theta = 60\u00b0 \\]\\n\\nTo compute \\(\\rho\\), we substitute \\((x = 0, y = 10)\\) into the Hough transform equation:\\n\\n\\[ \\\\rho = 0 \\\\cdot \\\\cos 60\u00b0 + 10 \\\\cdot \\\\sin 60\u00b0 = 10 \\\\cdot \\\\frac{\\\\sqrt{3}}{2} = 5\\\\sqrt{3} \\\\approx 8.66 \\]\\n\\nThus, the parameters in Hough space are:\\n\\n\\[ \\\\boxed{\\\\theta = 60\u00b0}, \\\\quad \\\\boxed{\\\\rho \\\\approx 8.66} \\]",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly calculates the angle \u03b8 by using the slope of the line and the tangent function. It then substitutes a point on the line (x=0, y=10) into the Hough transform equation to calculate \u03c1. The answer clearly shows the steps and the final values for \u03b8 and \u03c1."
+            },
+            "The answer correctly explains how multiple parallel lines with different intercepts but the same slope would appear in the Hough Transform space.": {
+                "relevant_portion_ideal": "In Hough space, parallel lines will appear as points with the same \\(\\theta\\) value but different \\(\\rho\\) values. This means that parallel lines will lie on a vertical line in Hough space, corresponding to a fixed \\(\\theta\\) with varying \\(\\rho\\).",
+                "evaluation": true,
+                "explanation": "The ideal answer accurately explains that parallel lines in the image space will have the same \u03b8 value (slope) but different \u03c1 values (intercept) in the Hough space. It further clarifies that this results in a vertical line in the Hough space, representing a fixed \u03b8 with varying \u03c1."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly calculates the \u03c1 and \u03b8 parameters of the line in the Hough Transform space.": {
+                "relevant_portion_student": "\u221a3x - y + 10 = 0\\n\\n   p = 10\\n   \u03b8 = sin^(-1)(\u221a3)\\n   = sin^(-1)(\u221a3/2)\\n   \u03b8 = sin^(-1)(\u221a3/2)\\n\\n(ii) y\\n   (x, y) of a particular m and c.\\n   in img space\\n   have diff (m, c) values in parameter space, but their intersection is (m, y)\\n   this will be the same, slope and intercept which the line having\\n   in img space.",
+                "evaluation": false,
+                "explanation": "The student's answer incorrectly calculates \u03b8. It uses the inverse sine function on \u221a3, which is not the correct approach. The student also does not calculate \u03c1 correctly. The student's answer does not show the steps involved in the calculation, making it difficult to understand the reasoning behind the results."
+            },
+            "The answer correctly explains how multiple parallel lines with different intercepts but the same slope would appear in the Hough Transform space.": {
+                "relevant_portion_student": "(ii) y\\n   (x, y) of a particular m and c.\\n   in img space\\n   have diff (m, c) values in parameter space, but their intersection is (m, y)\\n   this will be the same, slope and intercept which the line having\\n   in img space.",
+                "evaluation": false,
+                "explanation": "The student's answer does not provide a clear explanation of how parallel lines with different intercepts but the same slope would appear in the Hough Transform space. The explanation is vague and lacks the clarity and precision found in the ideal answer. The student's answer does not mention the concept of a vertical line in the Hough space, which is crucial for understanding the representation of parallel lines."
+            }
+        }
+    },
+    "28": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies scenario (b) as the one where a weak perspective camera model can be used for the target object.": {
+                "relevant_portion_ideal": "(b)",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly identifies scenario (b) as the one where a weak perspective camera model can be used for the target object. This is because the rubric explicitly states that the answer should correctly identify scenario (b) as the correct answer."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies scenario (b) as the one where a weak perspective camera model can be used for the target object.": {
+                "relevant_portion_student": "(b) An airplane flying at a very high altitude",
+                "evaluation": true,
+                "explanation": "The student's answer correctly identifies scenario (b) as the correct answer, aligning with the ideal answer and fulfilling the rubric's requirement."
+            }
+        }
+    },
+    "29": {
+        "ideal_answer_explanations": {
+            "The answer correctly identifies that the decision boundary in a support vector machine is defined by the hyperplane that maximizes the margin between the classes.": {
+                "relevant_portion_ideal": "(b)",
+                "evaluation": true,
+                "explanation": "The ideal answer correctly identifies the decision boundary as the hyperplane that maximizes the margin between classes, which is the core principle of SVM. The answer (b) implicitly refers to this concept, as it is the only option that aligns with the SVM's objective of maximizing the margin."
+            }
+        },
+        "student_answer_evaluations": {
+            "The answer correctly identifies that the decision boundary in a support vector machine is defined by the hyperplane that maximizes the margin between the classes.": {
+                "relevant_portion_student": "(a) The hyperplane that minimizes the distance from all training points.",
+                "evaluation": false,
+                "explanation": "The student's answer incorrectly states that the decision boundary minimizes the distance from all training points. This is not the objective of SVM. SVM aims to maximize the margin between classes, not minimize the distance to all points."
+            }
+        }
+    }
+}
